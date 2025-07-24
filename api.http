@@ -1,0 +1,37 @@
+### Recuperar todas las peliculas
+GET http://localhost:3000/movies
+
+### Recuperar una pelicula por ID
+GET http://localhost:3000/movies/c8a7d63f-3b04-44d3-9d95-8782fd7dcfaf
+
+### Recuperar peliculas por Genero
+GET http://localhost:3000/movies?genre=sci-fi
+
+### Crear una pelicula
+POST http://localhost:3000/movies
+Content-Type: application/json
+
+{
+    "title": "El sicario",
+    "year": 2026,
+    "director": "Frank Redolfo",
+    "duration": 163,
+    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+    "genre": [
+        "Drama",
+        "Adventure",
+        "Sci-Fi"
+    ],
+    "rate": 9.98
+}
+
+### Actualizar una pelicula
+PATCH http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c
+Content-Type: application/json
+
+{
+    "year": 1900
+}
+
+### Eliminar una pelicula
+DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
