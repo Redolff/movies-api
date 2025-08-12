@@ -12,7 +12,7 @@ app.use(cors({
     origin: (origin, callback) => { // Validacion para aceptar PORT 
         const ACCEPTED_ORIGINS = [
             'http://localhost:8080',
-            'http://localhost:5173'
+            'http://localhost:5173',
         ]
 
         if (ACCEPTED_ORIGINS.includes(origin) || (!origin)) {
