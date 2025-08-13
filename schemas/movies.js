@@ -1,4 +1,4 @@
-const z = require('zod')
+import z from 'zod'
 
 // Schema de validaciones para las movies
 const movieSchema = z.object({
@@ -11,15 +11,10 @@ const movieSchema = z.object({
     rate: z.number().positive().max(10)
 })
 
-const validateMovie = (object) => {
+export const validateMovie = (object) => {
     return movieSchema.safeParse(object)
 }
 
-const validatePartialMovie = (object) => {
+export const validatePartialMovie = (object) => {
     return movieSchema.partial().safeParse(object)
-}
-
-module.exports = {
-    validateMovie,
-    validatePartialMovie
 }
