@@ -195,10 +195,692 @@
         "duration": 162,
         "poster": "https://i.etsystatic.com/35681979/r/il/dfe3ba/3957859451/il_fullxfull.3957859451_h27r.jpg",
         "genre": [
+            "Action"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf4e7",
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbfs5f",
+        "title": "Avengers: Infinity War",
+        "year": 2018,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf7e9",
+        "title": "Avengers: Age of Ultron",
+        "year": 2015,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BODBhYTg1NGQtNGVmNS00ZTdiLThjYTYtZDFkNzRiNTZmNDZjXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf4e4",
+        "title": "The Avengers",
+        "year": 1998,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTA4ZmZlZWQtZDRlYS00ZWZhLTk0MzEtYjExMGIzMTBlZDNlXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf2e2",
+        "title": "Ultimate Avengers: The Movie",
+        "year": 2006,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTYyMjk0NTMwMl5BMl5BanBnXkFtZTgwNzY0NjAwNzE@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf8e0",
+        "title": "Ultimate Avengers II",
+        "year": 2006,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjI3MTI5ZTYtZmNmNy00OGZmLTlhNWMtNjZiYmYzNDhlOGRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf0e0",
+        "title": "Next Avengers: Heroes of Tomorrow",
+        "year": 2008,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ3NjExNjY4N15BMl5BanBnXkFtZTcwNTczODkwNQ@@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf2h9",
+        "title": "Avengers Confidential: Black Widow & Punisher",
+        "year": 2014,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTU2MDg0Njk4MF5BMl5BanBnXkFtZTgwMTY0OTIyMTE@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4b47-9a7b-2a71babbf6e6",
+        "title": "Crippled Avengers",
+        "year": 1978,
+        "director": "James Cameron",
+        "duration": 162,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjU2ODU5NzMtMzQ2NC00MmI5LWI1NjMtNmRmMjMzOTMxNWZhXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf6e6",
+        "title": "Monster's Ball",
+        "year": 2001,
+        "director": "James Cameron",
+        "duration": 163,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjYxMTQxMzgtN2UyYS00Y2JkLTg1MmYtOTYwMGI4YWQxZDhmXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf7a7",
+        "title": "Dragon Ball Super: Broly",
+        "year": 2018,
+        "director": "James Cameron",
+        "duration": 161,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTA5MTc1M2EtZWQ2Ni00ZmU2LTg3MzQtOTliMjE4OGM0ZWFiXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf101",
+        "title": "Dragon Ball Z: Battle of Gods",
+        "year": "2013",
+        "director": "James Cameron",
+        "duration": 163,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTkwZTkzZDEtMmFjYy00Y2FmLTkxOTgtZWExMjAwMjZlYmM4XkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf7a9",
+        "title": "Dragon Ball Z: Resurrection 'F'",
+        "year": "2015",
+        "director": "James Cameron",
+        "duration": 163,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjViOWI4ZmMtYzI3Zi00ZDBhLWFiMTUtMTQyMzNlN2RjZWM1XkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf7as",
+        "title": "Dragon Ball Super: Super Hero",
+        "year": 2022,
+        "director": "James Cameron",
+        "duration": 163,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzA2NmEwZGQtNWI1Ni00MTEyLTlkZDUtZDc5ZTJiOGYyNDQ5XkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf4aa",
+        "title": "Ball of Fire",
+        "year": 1941,
+        "director": "James Cameron",
+        "duration": 163,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWQ4YmE5NWItODc0Ni00NGVlLTlhYjAtZTAwY2M3YmViMjc5XkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbfass",
+        "title": "Dragon Ball Z: Fusion Reborn",
+        "year": 1995,
+        "director": "James Cameron",
+        "duration": 180,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjIyNGY0OWYtY2JlNS00ODVjLWJiODEtYWNlNWZjNDMzZjUzXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf7bca",
+        "title": "Smokin' Aces 2: Assassins' Ball",
+        "year": 2010,
+        "director": "James Cameron",
+        "duration": 130,
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzc5MTU3MjI2NV5BMl5BanBnXkFtZTcwOTM4NTMwMw@@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf18a",
+        "title": "Dragon Ball Z: Broly - The Legendary Super Saiyan",
+        "year": 1993,
+        "director": "James Cameron",
+        "duration": 130,
+        "poster": "https://m.media-amazon.com/images/M/MV5BN2U0MzdjOTItNDg5NS00NWQ0LWE5ZWEtZmRjNDVmY2NmZDFjXkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "6a360a18-c645-4a01-9a7b-2a71babbf00a",
+        "title": "The Firemen's Ball",
+        "year": 1967,
+        "duration": 130,
+        "director": "James Cameron",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzQ3YzYyMjUtZGU0Yy00YTdjLWEyMTQtMzA5ZDk2MTliNGU4XkEyXkFqcGc@._V1_SX300.jpg",
+        "genre": [
+            "Action",
+            "Fantasy"
+        ],
+        "rate": 7.8
+    },
+    {
+        "id": "c0ef3ef5-12b0-4c66-85fd-00d66f681053",
+        "title": "Goodfellas",
+        "year": 1990,
+        "director": "Martin Scorsese",
+        "duration": 146,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA4lre3kvvSDkWq0yifXF8NePLgG_5KUI1AQ&s",
+        "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.7
+    },
+    {
+        "id": "1e3fa270-7ef3-4b0e-9817-5f9435c4cde2",
+        "title": "Se7en",
+        "year": 1995,
+        "director": "David Fincher",
+        "duration": 127,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfZhogpSXsiidr7dzr5pecAADUvqV1WE8Jw&s",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "17f4ec15-b3c0-4c15-97d6-a7ef264ebda3",
+        "title": "The Silence of the Lambs",
+        "year": 1991,
+        "director": "Jonathan Demme",
+        "duration": 118,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2BhzGsdpQrufIo0a321PTKCDygYT4dJT9g&s",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "5104a88a-132d-4569-98e0-88de3c8fc38b",
+        "title": "Saving Private Ryan",
+        "year": 1998,
+        "director": "Steven Spielberg",
+        "duration": 169,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4EgYwtRS1Wb-wt4l6MvVZRBxYUACIpaHZVw&s",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "a51d9e1e-2b93-4f3f-a6c5-6809d2cf172f",
+        "title": "The Green Mile",
+        "year": 1999,
+        "director": "Frank Darabont",
+        "duration": 189,
+        "poster": "https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fd%2Fgracenote%2Fd725648c20cb167cc7a5487c4948b984.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Fantasy"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "ca2e3a26-4277-46fc-9e68-48db9d87775d",
+        "title": "The Prestige",
+        "year": 2006,
+        "director": "Christopher Nolan",
+        "duration": 130,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsuJOpB2xyM8c9tUmFw-S89A6vjb0xcDNHiQ&s",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "fe459db4-d01a-4f1a-a81c-973c70821784",
+        "title": "The Departed",
+        "year": 2006,
+        "director": "Martin Scorsese",
+        "duration": 151,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs1YPDFduHRQk1Is0xgemD2FC0VRh6rReQ6A&s",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "cd4f6f3c-5156-4fc4-8b0b-0c3d24f59254",
+        "title": "Whiplash",
+        "year": 2014,
+        "director": "Damien Chazelle",
+        "duration": 106,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP84YZtk6WteBd3KpAKCqEEK_AhRvgOky_SQ&s",
+        "genre": [
+            "Drama",
+            "Music"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "4dd0fa02-15f4-4a6e-8f12-cc7d68a96190",
+        "title": "Parasite",
+        "year": 2019,
+        "director": "Bong Joon Ho",
+        "duration": 132,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuzXDTAtiUr04suvJNTKuIfJxpTpTOBcy7Ng&s",
+        "genre": [
+            "Comedy",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "9245b68b-1d73-4766-8b92-917a0cdb6d27",
+        "title": "Joker",
+        "year": 2019,
+        "director": "Todd Phillips",
+        "duration": 122,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFT9adumu0UXLh4yvcv38t3r8bkBSaVlJFYQ&s",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.4
+    },
+    {
+        "id": "7a56fda2-b95a-4d87-bd6f-a89f8e2b047d",
+        "title": "The Lord of the Rings: The Fellowship of the Ring",
+        "year": 2001,
+        "director": "Peter Jackson",
+        "duration": 178,
+        "poster": "https://upload.wikimedia.org/wikipedia/en/f/fb/Lord_Rings_Fellowship_Ring.jpg",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rate": 8.8
+    },
+    {
+        "id": "8f230991-dc0d-4d88-a0d3-bcd1a3d20a0a",
+        "title": "The Lord of the Rings: The Two Towers",
+        "year": 2002,
+        "director": "Peter Jackson",
+        "duration": 179,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTJo4mSLMjbrLhof6ZuCkwW9s7-_VyvbNdjw&s",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rate": 8.7
+    },
+    {
+        "id": "799fb05e-6dcd-46f5-93b6-325011f55a7d",
+        "title": "Braveheart",
+        "year": 1995,
+        "director": "Mel Gibson",
+        "duration": 178,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTza6xK8dx7XdbF9kWmFt--qURNE4rSeKmxSg&s",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "3f0cbef8-0a45-4b94-b38f-9a1fd3f62bc8",
+        "title": "Casablanca",
+        "year": 1942,
+        "director": "Michael Curtiz",
+        "duration": 102,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3BJ25KNGcuK6lG5wN2fPuE-S1nvv-9ICtwA&s",
+        "genre": [
+            "Drama",
+            "Romance",
+            "War"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "afc3eb8e-6b1c-4f2a-9a25-2397ccbe4f55",
+        "title": "12 Angry Men",
+        "year": 1957,
+        "director": "Sidney Lumet",
+        "duration": 96,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_fgso1s9iRj38tZqt3EHoGIWaEx6FNUaInQ&s",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 9.0
+    },
+    {
+        "id": "5bc5a5d6-37bb-4a18-92db-78614e3b4c4d",
+        "title": "Psycho",
+        "year": 1960,
+        "director": "Alfred Hitchcock",
+        "duration": 109,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDhb1OtZJU8B1AbTK_pmO-CxYJVEHWemn_dw&s",
+        "genre": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "b2f87ab1-3b72-4c34-a12b-d13f2f65f1dd",
+        "title": "The Sound of Music",
+        "year": 1965,
+        "director": "Robert Wise",
+        "duration": 172,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH75j3DSAjrDUpaWUfIoUiVVyKB4bTLoqYIQ&s",
+        "genre": [
+            "Biography",
+            "Drama",
+            "Family"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "51d78a17-ec7b-42bb-8a34-4a4fdcdaff55",
+        "title": "2001: A Space Odyssey",
+        "year": 1968,
+        "director": "Stanley Kubrick",
+        "duration": 149,
+        "poster": "https://m.media-amazon.com/images/I/71rNJQ2g-EL._AC_SY679_.jpg",
+        "genre": [
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "9b4b3d35-13e3-4dc3-8cfb-8acb9b2a20df",
+        "title": "A Clockwork Orange",
+        "year": 1971,
+        "director": "Stanley Kubrick",
+        "duration": 136,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4dEBANqf-o9fFcFbJYWqMbrwrFR93eGJUvw&s",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8b6c",
+        "title": "Jaws",
+        "year": 1975,
+        "director": "Steven Spielberg",
+        "duration": 124,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2aHWSH1tP39SULCOD0jM2C2BLimCL_WZ82A&s",
+        "genre": [
+            "Adventure",
+            "Thriller"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "bfa4378f-d2fc-4e8f-aee3-d3b116d1861e",
+        "title": "Star Wars: Episode IV - A New Hope",
+        "year": 1977,
+        "director": "George Lucas",
+        "duration": 121,
+        "poster": "https://m.media-amazon.com/images/I/81aA7hEEykL._AC_SY679_.jpg",
+        "genre": [
             "Action",
             "Adventure",
             "Fantasy"
         ],
-        "rate": 7.8
+        "rate": 8.6
+    },
+    {
+        "id": "8bff0df1-dde8-44e6-9c2b-20a9f21e2d27",
+        "title": "Alien",
+        "year": 1979,
+        "director": "Ridley Scott",
+        "duration": 117,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsCqgIrfctmuyVGD8XGQ_CbuUnOlmPmFkc2w&s",
+        "genre": [
+            "Horror",
+            "Sci-Fi"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "6e2d6f46-82dd-4d2b-bb2c-7fd6b7cc12dd",
+        "title": "Blade Runner",
+        "year": 1982,
+        "director": "Ridley Scott",
+        "duration": 117,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNlbNtH-VUeLeM-M7bcZZAm2P3CBd1d3sXIA&s",
+        "genre": [
+            "Action",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "e0372c68-ec12-4a21-b5c1-0e05a792e621",
+        "title": "Scarface",
+        "year": 1983,
+        "director": "Brian De Palma",
+        "duration": 170,
+        "poster": "https://m.media-amazon.com/images/I/51sBr4IWDwL._AC_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "de4e3fa4-8591-4b9e-b217-65185f3e2c7b",
+        "title": "Back to the Future",
+        "year": 1985,
+        "director": "Robert Zemeckis",
+        "duration": 116,
+        "poster": "https://m.media-amazon.com/images/I/81t2CVWEsUL._AC_SY679_.jpg",
+        "genre": [
+            "Adventure",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "7c7f4152-5443-4b1c-a230-eef1736c89a8",
+        "title": "Platoon",
+        "year": 1986,
+        "director": "Oliver Stone",
+        "duration": 120,
+        "poster": "https://a.ltrbxd.com/resized/sm/upload/ty/tq/ny/c9/aXRkPBQr7ZF59ZSx7AOYHUYTXjH-0-1000-0-1500-crop.jpg?v=47090981cc",
+        "genre": [
+            "Drama",
+            "War"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-5c6cba2b126e",
+        "title": "Die Hard",
+        "year": 1988,
+        "director": "John McTiernan",
+        "duration": 132,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Action",
+            "Thriller"
+        ],
+        "rate": 8.2
+    },
+    {
+        "id": "4c74a364-2531-4b86-9c15-67f279bc0ab6",
+        "title": "Schindler's List",
+        "year": 1993,
+        "director": "Steven Spielberg",
+        "duration": 195,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2TinI7LEIeDjRe6Qb-QzPAGMnbC3gdctX9g&s",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rate": 9.0
+    },
+    {
+        "id": "f9d0d687-a926-4eaf-b0a3-97f39b824eb1",
+        "title": "Heat",
+        "year": 1995,
+        "director": "Michael Mann",
+        "duration": 170,
+        "poster": "https://upload.wikimedia.org/wikipedia/en/6/6c/Heatposter.jpg",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "92295b69-6b80-4f52-b823-fda91e7f7a5b",
+        "title": "The Sixth Sense",
+        "year": 1999,
+        "director": "M. Night Shyamalan",
+        "duration": 107,
+        "poster": "https://upload.wikimedia.org/wikipedia/en/a/a4/The_Sixth_Sense_poster.png",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Thriller"
+        ],
+        "rate": 8.2
+    },
+    {
+        "id": "2b311b49-18c1-4d6d-9e0e-73b3ff4b863b",
+        "title": "Memento",
+        "year": 2000,
+        "director": "Christopher Nolan",
+        "duration": 113,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSsHNtE05hU_8v_oAVf_zR34_SlEPdoPgXNQ&s",
+        "genre": [
+            "Mystery",
+            "Thriller"
+        ],
+        "rate": 8.4
+    },
+    {
+        "id": "645876a7-38a6-4a44-9943-6ac9630b64b6",
+        "title": "City of God",
+        "year": 2002,
+        "director": "Fernando Meirelles, Kátia Lund",
+        "duration": 130,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.6
     }
 ]
