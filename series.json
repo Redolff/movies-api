@@ -1,0 +1,829 @@
+[
+    {
+        "id": "s02-7c6d-8e9f-0g1h-234ij567kl22",
+        "title": "Mindhunter",
+        "year": 2017,
+        "director": "Joe Penhall",
+        "seasons": 2,
+        "episodes": 19,
+        "poster": "https://m.media-amazon.com/images/I/81+9YV3Jb6L._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "s03-5l4m-3n2o-1p0q-987rs654tu33",
+        "title": "The Night Of",
+        "year": 2016,
+        "director": "Richard Price",
+        "seasons": 1,
+        "episodes": 8,
+        "poster": "https://m.media-amazon.com/images/I/91rNmsbXqjL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "s04-2v1w-3x4y-5z6a-321bc987de44",
+        "title": "The Haunting of Hill House",
+        "year": 2018,
+        "director": "Mike Flanagan",
+        "seasons": 1,
+        "episodes": 10,
+        "poster": "https://m.media-amazon.com/images/I/91pYZcnz7nL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Horror",
+            "Mystery"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "s08-3j4k-5l6m-7n8o-654pq321rs88",
+        "title": "Boardwalk Empire",
+        "year": 2010,
+        "director": "Terence Winter",
+        "seasons": 5,
+        "episodes": 56,
+        "poster": "https://m.media-amazon.com/images/I/81Y1DnUl9sL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "History"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "s09-9t0u-1v2w-3x4y-432za876bc99",
+        "title": "Sons of Anarchy",
+        "year": 2008,
+        "director": "Kurt Sutter",
+        "seasons": 7,
+        "episodes": 92,
+        "poster": "https://m.media-amazon.com/images/I/81Wvw2S7rlL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-5c6cba2b5444ca",
+        "title": "Prison Break",
+        "year": 2005,
+        "director": "Paul Scheuring",
+        "seasons": 5,
+        "episodes": 90,
+        "poster": "https://m.media-amazon.com/images/I/91vQq7Y3uRL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Action",
+            "Adventure",
+            "Crimen"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-5c6cba2b5211sa",
+        "title": "Envidiosa",
+        "year": 2025,
+        "director": "Sebastian Ortega",
+        "seasons": 2,
+        "episodes": 23,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sa",
+        "title": "El Marginal",
+        "year": 2022,
+        "director": "Sebastian Ortega",
+        "seasons": 5,
+        "episodes": 43,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Drama",
+            "Crimen"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sb",
+        "title": "Dexter",
+        "year": 2013,
+        "director": "Sebastian Ortega",
+        "seasons": 8,
+        "episodes": 96,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Mistery",
+            "Drama"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sd",
+        "title": "El juego del Calamar",
+        "year": 2025,
+        "director": "Sebastian Ortega",
+        "seasons": 3,
+        "episodes": 22,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Drama"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211se",
+        "title": "La Reina del Flow",
+        "year": 2021,
+        "director": "Angie Mendez",
+        "seasons": 8,
+        "episodes": 171,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Crimen",
+            "Drama"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sg",
+        "title": "Machos Alfa",
+        "year": 2025,
+        "director": "Miguel Angel Ramos",
+        "seasons": 3,
+        "episodes": 30,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Comedia"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sh",
+        "title": "Suits",
+        "year": 2019,
+        "director": "Michael Philips",
+        "seasons": 9,
+        "episodes": 124,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTucw6f3xlMEHw6lO0dy6odi13rouclQnv3qA&s",
+        "genre": [
+            "Drama",
+            "Comedia"
+        ],
+        "rate": 9.9
+    },
+    {
+        "id": "a1b2c3d4-1111-2222-3333-444455556666",
+        "title": "Breaking Bad",
+        "year": 2008,
+        "director": "Vince Gilligan",
+        "seasons": 5,
+        "episodes": 62,
+        "poster": "https://m.media-amazon.com/images/I/51oDUU+mqYL._AC_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 9.5
+    },
+    {
+        "id": "b2c3d4e5-2222-3333-4444-555566667777",
+        "title": "Game of Thrones",
+        "year": 2011,
+        "director": "David Benioff, D.B. Weiss",
+        "seasons": 8,
+        "episodes": 73,
+        "poster": "https://m.media-amazon.com/images/I/71i0Z6z6kPL._AC_SL1000_.jpg",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "rate": 9.2
+    },
+    {
+        "id": "c3d4e5f6-3333-4444-5555-666677778888",
+        "title": "Stranger Things",
+        "year": 2016,
+        "director": "The Duffer Brothers",
+        "seasons": 4,
+        "episodes": 34,
+        "poster": "https://m.media-amazon.com/images/I/81kEecrsHfL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Fantasy",
+            "Horror"
+        ],
+        "rate": 8.7
+    },
+    {
+        "id": "d4e5f6g7-4444-5555-6666-777788889999",
+        "title": "Peaky Blinders",
+        "year": 2013,
+        "director": "Steven Knight",
+        "seasons": 6,
+        "episodes": 36,
+        "poster": "https://m.media-amazon.com/images/I/81iqZ2HHD-L._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.8
+    },
+    {
+        "id": "e5f6g7h8-5555-6666-7777-888899990000",
+        "title": "The Crown",
+        "year": 2016,
+        "director": "Peter Morgan",
+        "seasons": 5,
+        "episodes": 50,
+        "poster": "https://m.media-amazon.com/images/I/71O6z-D6evL._AC_SL1000_.jpg",
+        "genre": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "f6g7h8i9-6666-7777-8888-999900001111",
+        "title": "Narcos",
+        "year": 2015,
+        "director": "Chris Brancato",
+        "seasons": 3,
+        "episodes": 30,
+        "poster": "https://m.media-amazon.com/images/I/71b5G1HsZQL._AC_SL1000_.jpg",
+        "genre": [
+            "Biography",
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.8
+    },
+    {
+        "id": "g7h8i9j0-7777-8888-9999-000011112222",
+        "title": "Dark",
+        "year": 2017,
+        "director": "Baran bo Odar, Jantje Friese",
+        "seasons": 3,
+        "episodes": 26,
+        "poster": "https://m.media-amazon.com/images/I/71eNwP8FSqL._AC_SL1200_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rate": 8.8
+    },
+    {
+        "id": "h8i9j0k1-8888-9999-0000-111122223333",
+        "title": "The Witcher",
+        "year": 2019,
+        "director": "Lauren Schmidt Hissrich",
+        "seasons": 3,
+        "episodes": 24,
+        "poster": "https://m.media-amazon.com/images/I/71eUw2h3kBL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "i9j0k1l2-9999-0000-1111-222233334444",
+        "title": "The Mandalorian",
+        "year": 2019,
+        "director": "Jon Favreau",
+        "seasons": 3,
+        "episodes": 24,
+        "poster": "https://m.media-amazon.com/images/I/71v2FlkXCOL._AC_SL1000_.jpg",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Fantasy"
+        ],
+        "rate": 8.7
+    },
+    {
+        "id": "j0k1l2m3-0000-1111-2222-333344445555",
+        "title": "Better Call Saul",
+        "year": 2015,
+        "director": "Vince Gilligan, Peter Gould",
+        "seasons": 6,
+        "episodes": 63,
+        "poster": "https://m.media-amazon.com/images/I/71V15qk6A0L._AC_SL1000_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.9
+    },
+    {
+        "id": "k1l2m3n4-1111-2222-3333-444455556666",
+        "title": "House of the Dragon",
+        "year": 2022,
+        "director": "Ryan Condal, George R.R. Martin",
+        "seasons": 1,
+        "episodes": 10,
+        "poster": "https://m.media-amazon.com/images/I/91ukgIttYIL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "l2m3n4o5-2222-3333-4444-555566667777",
+        "title": "The Last of Us",
+        "year": 2023,
+        "director": "Craig Mazin, Neil Druckmann",
+        "seasons": 1,
+        "episodes": 9,
+        "poster": "https://m.media-amazon.com/images/I/81JQIP8dNwL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Adventure",
+            "Drama"
+        ],
+        "rate": 9.0
+    },
+    {
+        "id": "m3n4o5p6-3333-4444-5555-666677778888",
+        "title": "Sherlock",
+        "year": 2010,
+        "director": "Mark Gatiss, Steven Moffat",
+        "seasons": 4,
+        "episodes": 13,
+        "poster": "https://m.media-amazon.com/images/I/71a5X2t7qkL._AC_SL1000_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rate": 9.1
+    },
+    {
+        "id": "n4o5p6q7-4444-5555-6666-777788889999",
+        "title": "Chernobyl",
+        "year": 2019,
+        "director": "Craig Mazin",
+        "seasons": 1,
+        "episodes": 5,
+        "poster": "https://m.media-amazon.com/images/I/81X0V6MzWLL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "History",
+            "Thriller"
+        ],
+        "rate": 9.4
+    },
+    {
+        "id": "o5p6q7r8-5555-6666-7777-888899990000",
+        "title": "The Boys",
+        "year": 2019,
+        "director": "Eric Kripke",
+        "seasons": 3,
+        "episodes": 24,
+        "poster": "https://m.media-amazon.com/images/I/91pR9wKJKoL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Comedy",
+            "Crime"
+        ],
+        "rate": 8.7
+    },
+    {
+        "id": "p6q7r8s9-6666-7777-8888-999900001111",
+        "title": "Succession",
+        "year": 2018,
+        "director": "Jesse Armstrong",
+        "seasons": 4,
+        "episodes": 39,
+        "poster": "https://m.media-amazon.com/images/I/71Cyhv7FJyL._AC_SL1200_.jpg",
+        "genre": [
+            "Drama"
+        ],
+        "rate": 8.9
+    },
+    {
+        "id": "q7r8s9t0-7777-8888-9999-000011112222",
+        "title": "The Office",
+        "year": 2005,
+        "director": "Greg Daniels",
+        "seasons": 9,
+        "episodes": 201,
+        "poster": "https://m.media-amazon.com/images/I/81XoH4y8n8L._AC_SL1500_.jpg",
+        "genre": [
+            "Comedy"
+        ],
+        "rate": 9.0
+    },
+    {
+        "id": "r8s9t0u1-8888-9999-0000-111122223333",
+        "title": "Friends",
+        "year": 1994,
+        "director": "David Crane, Marta Kauffman",
+        "seasons": 10,
+        "episodes": 236,
+        "poster": "https://m.media-amazon.com/images/I/81mMmvO0pVL._AC_SL1500_.jpg",
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "rate": 8.9
+    },
+    {
+        "id": "s9t0u1v2-9999-0000-1111-222233334444",
+        "title": "How I Met Your Mother",
+        "year": 2005,
+        "director": "Carter Bays, Craig Thomas",
+        "seasons": 9,
+        "episodes": 208,
+        "poster": "https://m.media-amazon.com/images/I/91nX8G7gBgL._AC_SL1500_.jpg",
+        "genre": [
+            "Comedy",
+            "Romance"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "t0u1v2w3-0000-1111-2222-333344445555",
+        "title": "Lost",
+        "year": 2004,
+        "director": "J.J. Abrams, Damon Lindelof",
+        "seasons": 6,
+        "episodes": 121,
+        "poster": "https://m.media-amazon.com/images/I/71ZGi99ZvgL._AC_SL1000_.jpg",
+        "genre": [
+            "Adventure",
+            "Drama",
+            "Fantasy"
+        ],
+        "rate": 8.4
+    },
+    {
+        "id": "u1v2w3x4-1111-2222-3333-444455556666",
+        "title": "Westworld",
+        "year": 2016,
+        "director": "Jonathan Nolan, Lisa Joy",
+        "seasons": 4,
+        "episodes": 36,
+        "poster": "https://m.media-amazon.com/images/I/71xYBX+0vaL._AC_SL1000_.jpg",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "v2w3x4y5-2222-3333-4444-555566667777",
+        "title": "Vikingos",
+        "year": 2013,
+        "director": "Michael Hirst",
+        "seasons": 6,
+        "episodes": 89,
+        "poster": "https://m.media-amazon.com/images/I/91oLvoZ0pkL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Drama",
+            "History"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "w3x4y5z6-3333-4444-5555-666677778888",
+        "title": "La Casa de Papel",
+        "year": 2017,
+        "director": "Álex Pina",
+        "seasons": 5,
+        "episodes": 41,
+        "poster": "https://m.media-amazon.com/images/I/91U3m0UZiPL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.2
+    },
+    {
+        "id": "x4y5z6a7-4444-5555-6666-777788889999",
+        "title": "The Walking Dead",
+        "year": 2010,
+        "director": "Frank Darabont",
+        "seasons": 11,
+        "episodes": 177,
+        "poster": "https://m.media-amazon.com/images/I/91cXy0zZq3L._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Horror",
+            "Thriller"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "y5z6a7b8-5555-6666-7777-888899990000",
+        "title": "The Sopranos",
+        "year": 1999,
+        "director": "David Chase",
+        "seasons": 6,
+        "episodes": 86,
+        "poster": "https://m.media-amazon.com/images/I/81MUkJtShvL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 9.2
+    },
+    {
+        "id": "z6a7b8c9-6666-7777-8888-999900001111",
+        "title": "Ozark",
+        "year": 2022,
+        "director": "Bill Dubuque, Mark Williams",
+        "seasons": 4,
+        "episodes": 44,
+        "poster": "",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 9.2
+    },
+    {
+        "id": "l21n9k34-01n9-4i8k-92h0-67lk654o2p22",
+        "title": "Boardwalk Empire",
+        "year": 2010,
+        "director": "Terence Winter",
+        "seasons": 5,
+        "episodes": 56,
+        "poster": "https://m.media-amazon.com/images/I/91we4Cz5hJL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "m32o0l45-12o0-4j9l-93i1-78ml765p3q33",
+        "title": "Westworld",
+        "year": 2016,
+        "director": "Jonathan Nolan",
+        "seasons": 4,
+        "episodes": 36,
+        "poster": "https://m.media-amazon.com/images/I/91Z7vbM1yYL._AC_SL1500_.jpg",
+        "genre": [
+            "Sci-Fi",
+            "Drama"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "n43p1m56-23p1-5k0m-94j2-89nm876q4r44",
+        "title": "House",
+        "year": 2004,
+        "director": "David Shore",
+        "seasons": 8,
+        "episodes": 177,
+        "poster": "https://m.media-amazon.com/images/I/81R5o6B6R6L._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Mystery"
+        ],
+        "rate": 8.7
+    },
+    {
+        "id": "o54q2n67-34q2-6l1n-95k3-90on987r5s55",
+        "title": "Mr. Robot",
+        "year": 2015,
+        "director": "Sam Esmail",
+        "seasons": 4,
+        "episodes": 45,
+        "poster": "https://m.media-amazon.com/images/I/91j7Flh5v6L._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "p65r3o78-45r3-7m2o-96l4-01po098s6t66",
+        "title": "Mindhunter",
+        "year": 2017,
+        "director": "Joe Penhall",
+        "seasons": 2,
+        "episodes": 19,
+        "poster": "https://m.media-amazon.com/images/I/81ymgEy7WvL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.6
+    },
+    {
+        "id": "i98k6h01-78k6-4f5h-89e7-34ih321l9m99",
+        "title": "Better Call Saul",
+        "year": 2015,
+        "director": "Vince Gilligan",
+        "seasons": 6,
+        "episodes": 63,
+        "poster": "https://m.media-amazon.com/images/I/81W1XlJghQL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 9.0
+    },
+    {
+        "id": "j09l7i12-89l7-4g6i-90f8-45ji432m0n00",
+        "title": "Suits",
+        "year": 2011,
+        "director": "Aaron Korsh",
+        "seasons": 9,
+        "episodes": 134,
+        "poster": "https://m.media-amazon.com/images/I/91KfM6r39gL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "t09v7s12-89v7-1q6s-00p8-45ts432w0x00",
+        "title": "True Detective",
+        "year": 2014,
+        "director": "Nic Pizzolatto",
+        "seasons": 4,
+        "episodes": 32,
+        "poster": "https://m.media-amazon.com/images/I/91zDDp8kZxL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 9.0
+    },
+    {
+        "id": "s11-4n5o-6p7q-8r9s-109tu876vw11",
+        "title": "Better Call Saul",
+        "year": 2015,
+        "director": "Vince Gilligan",
+        "seasons": 6,
+        "episodes": 63,
+        "poster": "https://m.media-amazon.com/images/I/81vxzRr+6tL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama"
+        ],
+        "rate": 8.9
+    },
+    {
+        "id": "s12-2x3y-4z5a-6b7c-987de654fg12",
+        "title": "Fargo",
+        "year": 2014,
+        "director": "Noah Hawley",
+        "seasons": 5,
+        "episodes": 51,
+        "poster": "https://m.media-amazon.com/images/I/91lcfk5GxML._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 8.9
+    },
+    {
+        "id": "s13-8c9d-0e1f-2g3h-876ij543kl13",
+        "title": "The Wire",
+        "year": 2002,
+        "director": "David Simon",
+        "seasons": 5,
+        "episodes": 60,
+        "poster": "https://m.media-amazon.com/images/I/91hHqWl9DkL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Thriller"
+        ],
+        "rate": 9.3
+    },
+    {
+        "id": "s14-4l5m-6n7o-8p9q-765rs432tu14",
+        "title": "The Pacific",
+        "year": 2010,
+        "director": "Bruce C. McKenna",
+        "seasons": 1,
+        "episodes": 10,
+        "poster": "https://m.media-amazon.com/images/I/91i9TDS9iYL._AC_SL1500_.jpg",
+        "genre": [
+            "Action",
+            "Drama",
+            "History"
+        ],
+        "rate": 8.3
+    },
+    {
+        "id": "s15-1v2w-3x4y-5z6a-543bc210de15",
+        "title": "The Man in the High Castle",
+        "year": 2015,
+        "director": "Frank Spotnitz",
+        "seasons": 4,
+        "episodes": 40,
+        "poster": "https://m.media-amazon.com/images/I/91B8f3sW4vL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "rate": 8.0
+    },
+    {
+        "id": "s16-7c8d-9e0f-1g2h-876ij543kl16",
+        "title": "Westworld",
+        "year": 2016,
+        "director": "Jonathan Nolan",
+        "seasons": 4,
+        "episodes": 36,
+        "poster": "https://m.media-amazon.com/images/I/81hcnfU8w0L._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Mystery",
+            "Sci-Fi"
+        ],
+        "rate": 8.5
+    },
+    {
+        "id": "s17-3j4k-5l6m-7n8o-654pq321rs17",
+        "title": "The Leftovers",
+        "year": 2014,
+        "director": "Damon Lindelof",
+        "seasons": 3,
+        "episodes": 28,
+        "poster": "https://m.media-amazon.com/images/I/81cfE7+I8+L._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "Fantasy",
+            "Mystery"
+        ],
+        "rate": 8.9
+    },
+    {
+        "id": "s18-9t0u-1v2w-3x4y-210za987bc18",
+        "title": "Chernobyl",
+        "year": 2019,
+        "director": "Craig Mazin",
+        "seasons": 1,
+        "episodes": 5,
+        "poster": "https://m.media-amazon.com/images/I/81W+1MnMzxL._AC_SL1500_.jpg",
+        "genre": [
+            "Drama",
+            "History",
+            "Thriller"
+        ],
+        "rate": 9.4
+    },
+    {
+        "id": "s19-5d6e-7f8g-9h0i-543lm210no19",
+        "title": "Sharp Objects",
+        "year": 2018,
+        "director": "Marti Noxon",
+        "seasons": 1,
+        "episodes": 8,
+        "poster": "https://m.media-amazon.com/images/I/91Lm7OxNxtL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Mystery"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "s20-2x3y-4z5a-6b7c-321de987fg20",
+        "title": "Hannibal",
+        "year": 2013,
+        "director": "Bryan Fuller",
+        "seasons": 3,
+        "episodes": 39,
+        "poster": "https://m.media-amazon.com/images/I/91daQdVByhL._AC_SL1500_.jpg",
+        "genre": [
+            "Crime",
+            "Drama",
+            "Horror"
+        ],
+        "rate": 8.5
+    }
+]

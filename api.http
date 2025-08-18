@@ -1,5 +1,7 @@
 ### Recuperar todas las peliculas
 GET http://localhost:3000/movies
+### Recuperar todas las series
+GET http://localhost:3000/series
 
 ### Recuperar una pelicula por ID
 GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3

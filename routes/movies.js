@@ -1,7 +1,7 @@
 import { Router } from "express";
 import { MovieController } from "../controllers/movie.js";
 
-export const createMovieRouter = ({ movieModel }) => {
+export const movieRouter = ({ movieModel }) => {
     const moviesRouter = Router()
 
     const movieController = new MovieController({ movieModel })
