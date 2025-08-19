@@ -1,18 +1,12 @@
 ### Recuperar todas las peliculas
 GET http://localhost:3000/movies
-### Recuperar todas las series
-GET http://localhost:3000/series
-
 ### Recuperar una pelicula por ID
 GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
-
 ### Recuperar peliculas por Genero
 GET http://localhost:3000/movies?genre=sci-fi
-
 ### Crear una pelicula
 POST http://localhost:3000/movies
 Content-Type: application/json
-
 {
     "title": "El sicario",
     "year": 2026,
@@ -26,14 +20,21 @@ Content-Type: application/json
     ],
     "rate": 9.98
 }
-
 ### Actualizar una pelicula
 PATCH http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c
 Content-Type: application/json
-
 {
     "year": 1900
 }
-
 ### Eliminar una pelicula
 DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+
+### Recuperar todas las series
+GET http://localhost:3000/series
+### Recuperar serie por ID
+GET http://localhost:3000/series/s08-3j4k-5l6m-7n8o-654pq321rs88
+
+### Recuperar todos los juegos
+GET http://localhost:3000/games
+### Recuperar los juegos por plataforma
+GET http://localhost:3000/games/ps4

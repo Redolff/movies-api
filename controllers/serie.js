@@ -11,7 +11,7 @@ export class SerieController {
     getById = async (req, res) => {
         const { id } = req.params
         const serieXid = await this.serieModel.getById({ id })
-        if(serieXid) return res.json
+        if(serieXid) return res.json(serieXid[0])
 
         return res.status(404).json({ message: 'Movie not found' })
     }

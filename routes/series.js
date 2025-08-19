@@ -2,7 +2,7 @@ import { Router } from "express"
 import { SerieController } from "../controllers/serie.js"
 
 export const serieRouter = ({ serieModel }) => {
-    const seriesRouter = new Router()
+    const seriesRouter = Router()
 
     const serieController = new SerieController({ serieModel })
     
