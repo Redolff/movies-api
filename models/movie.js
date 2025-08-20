@@ -4,13 +4,21 @@ const moviesJSON = readJSON('../movies.json')
 
 export class MovieModel {
 
-    static getAll = async ({ genre }) => {
+    static getAll = async ({ genre, year }) => {
         if (genre) {
-            const filteredMovies = await moviesJSON.filter(
+            const moviesGenre = await moviesJSON.filter(
                 movie => movie.genre.some((g) => g.toLowerCase() === genre.toLowerCase())
             )
-            return filteredMovies
+            return moviesGenre
         }
+
+        if(year) {
+            const moviesYear = await moviesJSON.filter(
+                (movie) => movie.year === Number(year)
+            )
+            return moviesYear
+        }
+
         return moviesJSON
     }
 
@@ -19,8 +27,13 @@ export class MovieModel {
         return movieXid
     }
 
+    static getByYear = async ({ year }) => {
+        const moviesXyear = await moviesJSON.filter((movie) => movie.year === Number(year))
+        return moviesXyear
+    }
+
     static update = async ({ id, input }) => {
-        const movieIndex = await moviesJSON.find((movie) => movie.id === id)
+        const movieIndex = await moviesJSON.findIndex((movie) => movie.id === id)
 
         if(movieIndex === -1) {
             return res.status(404).json({ message: 'Movie not found' })
@@ -46,7 +59,7 @@ export class MovieModel {
     }
 
     static delete = async ({ id }) => {
-        const movieIndex = await moviesJSON.find((movie) => movie.id === id)
+        const movieIndex = await moviesJSON.findIndex((movie) => movie.id === id)
         if(movieIndex === -1){
             return res.statusCode(404).json({ message: 'Movie not found' })
         }

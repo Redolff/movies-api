@@ -12,7 +12,6 @@ export class GameModel {
         const filteredGamesByPlatform = await gamesJSON.filter(
             (game) => game.platform.some((p) => p.toLowerCase() === platform.toLowerCase())
         )
-        console.log(filteredGamesByPlatform)
         return filteredGamesByPlatform
     }
 

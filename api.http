@@ -2,6 +2,8 @@
 GET http://localhost:3000/movies
 ### Recuperar una pelicula por ID
 GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+### Recuperar peliculas por Año
+GET http://localhost:3000/movies?year=2000
 ### Recuperar peliculas por Genero
 GET http://localhost:3000/movies?genre=sci-fi
 ### Crear una pelicula
