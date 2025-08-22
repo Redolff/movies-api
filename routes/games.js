@@ -7,7 +7,7 @@ export const gameRouter = ({ gameModel }) => {
     const gameController = new GameController({ gameModel })
 
     gamesRouter.get('/', gameController.getAll)
-    gamesRouter.get('/:platform', gameController.getByPlatform)
+    gamesRouter.get('/:id', gameController.getById)
 
     return gamesRouter
 }

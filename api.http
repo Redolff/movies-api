@@ -35,8 +35,14 @@ DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 GET http://localhost:3000/series
 ### Recuperar serie por ID
 GET http://localhost:3000/series/s08-3j4k-5l6m-7n8o-654pq321rs88
+### Recuperar serie por cant TEMPORADAS
+GET http://localhost:3000/series?season=2
+### Recuperar serie por GENRE
+GET http://localhost:3000/series?genre=crime
 
 ### Recuperar todos los juegos
 GET http://localhost:3000/games
+### Recuperar juego por ID
+GET http://localhost:3000/games/5e82b624-0b7c-421f-9af8-2ec4b2b17e22
 ### Recuperar los juegos por plataforma
-GET http://localhost:3000/games/ps4
+GET http://localhost:3000/games?platform=pc

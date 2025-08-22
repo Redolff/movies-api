@@ -4,7 +4,8 @@ export class SerieController {
     }
 
     getAll = async (req, res) => {
-        const series = await this.serieModel.getAll()
+        const { season, genre } = req.query
+        const series = await this.serieModel.getAll({ season, genre })
         res.json(series)
     }
 

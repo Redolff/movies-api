@@ -3,17 +3,20 @@ const gamesJSON = readJSON('../games.json')
 
 export class GameModel {
 
-    static getAll = async () => {
-        const games = await gamesJSON
-        return games
+    static getAll = async ({ platform }) => {
+        if (platform) {
+            const filteredGamesByPlatform = await gamesJSON.filter(
+                (game) => game.platform.some((p) => p.toLowerCase() === platform.toLowerCase())
+            )
+            return filteredGamesByPlatform
+        }
+
+        return gamesJSON
     }
 
-    static getByPlatform = async ({ platform }) => {
-        const filteredGamesByPlatform = await gamesJSON.filter(
-            (game) => game.platform.some((p) => p.toLowerCase() === platform.toLowerCase())
-        )
-        return filteredGamesByPlatform
+    static getById = async ({ id }) => {
+        const gameXid = await gamesJSON.filter((game) => game.id === id)
+        return gameXid
     }
 
-    
 } 
