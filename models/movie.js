@@ -4,7 +4,7 @@ const moviesJSON = readJSON('../movies.json')
 
 export class MovieModel {
 
-    static getAll = async ({ genre, year }) => {
+    static getAll = async ({ genre, year, fromYear }) => {
         if (genre) {
             const moviesGenre = await moviesJSON.filter(
                 movie => movie.genre.some((g) => g.toLowerCase() === genre.toLowerCase())
@@ -17,6 +17,13 @@ export class MovieModel {
                 (movie) => movie.year === Number(year)
             )
             return moviesYear
+        }
+
+        if(fromYear) {
+            const moviesPremiere = await moviesJSON.filter(
+                (movie) => movie.year >= Number(fromYear)
+            )
+            return moviesPremiere
         }
 
         return moviesJSON

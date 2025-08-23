@@ -6,8 +6,8 @@ export class MovieController {
     }
 
     getAll = async (req, res) => {
-        const { genre, year } = req.query
-        const movies = await this.movieModel.getAll({ genre, year })
+        const { genre, year, fromYear } = req.query
+        const movies = await this.movieModel.getAll({ genre, year, fromYear })
         res.json(movies)
     }
 

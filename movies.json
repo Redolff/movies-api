@@ -882,5 +882,67 @@
             "Drama"
         ],
         "rate": 8.6
+    },
+    {
+        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8b69",
+        "title": "Caerás",
+        "year": 2025,
+        "director": "Fernando Meirelles",
+        "duration": 105,
+        "poster": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2025/8/w1280/wytZFBYpkEgxsALpg5l2euGeVQz.jpg",
+        "genre": [
+            "Drama"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8b10",
+        "title": "Happy Gilmore 2",
+        "year": 2025,
+        "director": "Fernando Meirelles",
+        "duration": 117,
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTQyNTRmYjItMDBjYi00YWNhLWEwMmQtNzJhODNiNjEzOWJlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "genre": [
+            "Deporte"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8bp4",
+        "title": "Mi año en Oxford",
+        "year": 2025,
+        "director": "Fernando Meirelles",
+        "duration": 112,
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWU0YTc0OWYtOWJjNy00ZDYzLWFlMTItMGZkNzM4YjQ5OWQzXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8brr",
+        "title": "La noche siempre llega",
+        "year": 2025,
+        "director": "Fernando Meirelles",
+        "duration": 110,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFfnhDn3si1ivrAUdCGA-l8s3cJL8Gqyhbxg&s",
+        "genre": [
+            "Drama"
+        ],
+        "rate": 8.1
+    },
+    {
+        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8bss",
+        "title": "Una historia de amor en Copenhague",
+        "year": 2025,
+        "director": "Fernando Meirelles",
+        "duration": 112,
+        "poster": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2025/2/w1280/uflnD9Gl6Ia327IYfjNtNSxjzdO.jpg",
+        "genre": [
+            "Romance",
+            "Drama"
+        ],
+        "rate": 8.1
     }
 ]
