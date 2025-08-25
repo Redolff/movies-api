@@ -15,7 +15,7 @@
         ],
         "multiplayer": false,
         "rating": 9.7,
-        "poster": "https://m.media-amazon.com/images/I/81KGsbYEDsL._AC_SL1500_.jpg"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
     },
     {
         "id": "7d9c4a21-2a38-4a2b-8b0d-4c123d8b5b2a",
@@ -35,7 +35,7 @@
         ],
         "multiplayer": false,
         "rating": 9.5,
-        "poster": "https://m.media-amazon.com/images/I/91ZpJXnXYwL._AC_SL1500_.jpg"
+        "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/qezXTVn1ExqBjVjR5Ipm97IK.png"
     },
     {
         "id": "c4d8f8b2-4129-45d9-92b1-d9f3a36c178f",
@@ -56,7 +56,7 @@
         ],
         "multiplayer": true,
         "rating": 9.0,
-        "poster": "https://m.media-amazon.com/images/I/81LIf4+z8mL._AC_SL1500_.jpg"
+        "poster": "https://img.poki-cdn.com/cdn-cgi/image/q=78,scq=50,width=1200,height=1200,fit=cover,f=png/12a0ed7c6bc09b73d6558c6f69ed7f5f/minecraft-classic.png"
     },
     {
         "id": "b9f7a2e4-1f7c-41e9-a0de-f9a45a92251b",
@@ -74,7 +74,7 @@
         ],
         "multiplayer": false,
         "rating": 9.6,
-        "poster": "https://m.media-amazon.com/images/I/81vbUiqzKYL._AC_SL1500_.jpg"
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmHlaYwsOI5Bdtt7HY5TzBP4RCBLsB9sN2w&s"
     },
     {
         "id": "fa6b21a8-2a7c-4524-9187-993f00c3ec67",
@@ -96,7 +96,7 @@
         ],
         "multiplayer": true,
         "rating": 8.3,
-        "poster": "https://m.media-amazon.com/images/I/81pxJYcaTtL._AC_SL1500_.jpg"
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPtEk1fCnKwt2BjySD_OZwlGVWVxetMiNfgQ&s"
     },
     {
         "id": "5e82b624-0b7c-421f-9af8-2ec4b2b17e22",
@@ -115,7 +115,7 @@
         ],
         "multiplayer": true,
         "rating": 9.8,
-        "poster": "https://m.media-amazon.com/images/I/81fIGK9fbbL._AC_SL1500_.jpg"
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Zw3ba8igTlqTD-rCWWQgpjA1dFwTv0DV3w&s"
     },
     {
         "id": "j01v9g12-44h2-4x9k-93m7-13rt852k1d01",
@@ -130,27 +130,8 @@
             "Action",
             "Adventure"
         ],
-        "poster": "https://m.media-amazon.com/images/I/81xRx3R7XDL._AC_SL1500_.jpg",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJFATHJzRw5xd3U1SEv1ycqZwITDl6ZtimpA&s",
         "rate": 9.8,
-        "multiplayer": false
-    },
-    {
-        "id": "j02x1k55-28g3-7p1l-84n9-33ed871j2l02",
-        "title": "The Witcher 3: Wild Hunt",
-        "year": 2015,
-        "developer": "CD Projekt Red",
-        "platform": [
-            "PC",
-            "PS4",
-            "Xbox One",
-            "Switch"
-        ],
-        "genre": [
-            "RPG",
-            "Adventure"
-        ],
-        "poster": "https://m.media-amazon.com/images/I/81WbYb2LkUL._AC_SL1500_.jpg",
-        "rate": 9.7,
         "multiplayer": false
     },
     {
@@ -166,7 +147,7 @@
             "Shooter",
             "Sci-Fi"
         ],
-        "poster": "https://m.media-amazon.com/images/I/81vW+JYwVhL._AC_SL1500_.jpg",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/8/80/Halo_-_Combat_Evolved_%28XBox_version_-_box_art%29.jpg",
         "rate": 9.4,
         "multiplayer": true
     },
@@ -184,7 +165,7 @@
             "RPG",
             "Fantasy"
         ],
-        "poster": "https://m.media-amazon.com/images/I/81uhLZsBIPL._AC_SL1500_.jpg",
+        "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202308/3005/537b5208a8ee42935286a44b3b981da86d976bf54899bf98.jpg",
         "rate": 9.6,
         "multiplayer": false
     },
@@ -203,7 +184,7 @@
             "Shooter",
             "Multiplayer"
         ],
-        "poster": "https://m.media-amazon.com/images/I/81iqZ2e1mDL._AC_SL1500_.jpg",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg",
         "rate": 8.9,
         "multiplayer": true
     },
@@ -219,7 +200,7 @@
             "Fighting",
             "Multiplayer"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91Xz4f9fQ1L._AC_SL1500_.jpg",
+        "poster": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9",
         "rate": 9.5,
         "multiplayer": true
     },
@@ -237,7 +218,7 @@
             "RPG",
             "Action"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91smZoUqf5L._AC_SL1500_.jpg",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/b/bb/Dark_souls_3_cover_art.jpg",
         "rate": 9.3,
         "multiplayer": true
     },
@@ -253,7 +234,7 @@
             "RPG",
             "Horror"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91PbYzO6tdL._AC_SL1500_.jpg",
+        "poster": "https://image.api.playstation.com/vulcan/img/rnd/202010/2614/Sy5e8DmeKIJVjlAGraPAJYkT.png",
         "rate": 9.6,
         "multiplayer": true
     },
@@ -273,7 +254,7 @@
             "RPG",
             "Sci-Fi"
         ],
-        "poster": "https://m.media-amazon.com/images/I/81uO4Bxn7oL._AC_SL1500_.jpg",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg",
         "rate": 8.4,
         "multiplayer": false
     },
@@ -289,7 +270,7 @@
             "Shooter",
             "Sci-Fi"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91mT0ynYo6L._AC_SL1500_.jpg",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/2/25/Half-Life_2_cover.jpg",
         "rate": 9.7,
         "multiplayer": false
     },
@@ -307,7 +288,7 @@
         "genre": [
             "Survival Horror"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91xqL7P4soL._AC_SL1500_.jpg",
+        "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png",
         "rate": 9.5,
         "multiplayer": false
     },
@@ -323,7 +304,7 @@
         "genre": [
             "Fighting"
         ],
-        "poster": "https://m.media-amazon.com/images/I/81QjJ5v2nNL._AC_SL1500_.jpg",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/310950/header.jpg?t=1705467952",
         "rate": 8.2,
         "multiplayer": true
     },
@@ -341,7 +322,7 @@
             "RPG",
             "Action"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91fwvqBVoDL._AC_SL1500_.jpg",
+        "poster": "https://upload.wikimedia.org/wikipedia/en/1/1b/Monster_Hunter_World_cover_art.jpg",
         "rate": 9.1,
         "multiplayer": true
     },
@@ -359,7 +340,7 @@
             "Action",
             "Adventure"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91-UKXQZGPL._AC_SL1500_.jpg",
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/814380/capsule_616x353.jpg?t=1754933982",
         "rate": 9.2,
         "multiplayer": false
     },
@@ -379,7 +360,7 @@
             "RPG",
             "Fantasy"
         ],
-        "poster": "https://m.media-amazon.com/images/I/91UWyDoqRCL._AC_SL1500_.jpg",
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1245620/capsule_616x353.jpg?t=1748630546",
         "rate": 9.8,
         "multiplayer": true
     },
@@ -399,7 +380,7 @@
         ],
         "rating": 9.5,
         "multiplayer": false,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/8/8d/Metroid_prime_cover.jpg"
+        "poster": "https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000063709/32b85837beea0eee31220a59e247219662de4011f7a8c18fce61cf99a4933eb7"
     },
     {
         "id": "64f822db-4a12-4d5b-8f2f-3f4f3a7f912c",
@@ -417,7 +398,7 @@
         ],
         "rating": 9.3,
         "multiplayer": false,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/9/91/Silent_Hill_2.jpg"
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRViM4IjS_zlkbzbx_xOTkyVicY_W28MnCjqQ&s"
     },
     {
         "id": "bc22b441-b6aa-4edc-a6a5-9a27fdc5617b",
@@ -433,7 +414,7 @@
         ],
         "rating": 9.1,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/8/83/StarCraft_II_-_Box_Art.jpg"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/2/20/StarCraft_II_-_Box_Art.jpg"
     },
     {
         "id": "9de9c17f-1a7e-4b08-927a-81c82f4a44f9",
@@ -449,7 +430,7 @@
         ],
         "rating": 9.0,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/5/57/Gran_Turismo_4.jpg"
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTQ1Y2UxNzYtMWRjYS00NTljLTlhOWYtNGJmMWIzOTE1NzUxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
     },
     {
         "id": "c08e2f6a-1b77-42b0-8b65-351d2b8e2d56",
@@ -464,7 +445,7 @@
         ],
         "rating": 9.2,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/7/7d/Donkey_Kong_Country_SNES_cover.png"
+        "poster": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/super_nintendo_5/H2x1_SNES_DonkeyKongCountry_image1600w.jpg"
     },
     {
         "id": "abf46e12-d8c1-42b6-9b1c-cfa6d8ebdf41",
@@ -481,7 +462,7 @@
         ],
         "rating": 9.4,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/6/67/Uncharted_4_box_artwork.jpg"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/1/1a/Uncharted_4_box_artwork.jpg"
     },
     {
         "id": "f27c2b6e-03f4-420d-8f6b-80a2af32c9a2",
@@ -497,7 +478,7 @@
         ],
         "rating": 8.5,
         "multiplayer": false,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/6/63/The_Last_Guardian_cover_art.jpg"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/2/25/The_Last_Guardian_cover_art.jpg"
     },
     {
         "id": "de8cbb3a-f789-4c66-9df8-3a7a6c34632a",
@@ -514,7 +495,7 @@
         ],
         "rating": 9.6,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/f/fa/Half-Life_Cover_Art.jpg"
+        "poster": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/70/header.jpg?t=1745368462"
     },
     {
         "id": "fbf8769e-51c2-462f-9ed7-728fe5c1ab9e",
@@ -530,7 +511,7 @@
         ],
         "rating": 9.1,
         "multiplayer": false,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/2/2e/Mega_Man_X_Coverart.png"
+        "poster": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/743890/header.jpg?t=1669873820"
     },
     {
         "id": "7e8d1b32-1e52-4c79-a235-5de1d2e2f473",
@@ -547,7 +528,7 @@
         ],
         "rating": 9.4,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/1/1d/Street_Fighter_II_Flyer.png"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/1/1d/SF2_JPN_flyer.jpg"
     },
     {
         "id": "72c4b8d2-f85c-4e53-b7fb-64dbca28599b",
@@ -565,7 +546,7 @@
         ],
         "rating": 8.8,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/0/0e/Destiny_2_%28artwork%29.jpg"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/0/05/Destiny_2_%28artwork%29.jpg"
     },
     {
         "id": "a0b82af7-4413-4f84-9e50-6b08f82d6d78",
@@ -584,7 +565,7 @@
         ],
         "rating": 9.3,
         "multiplayer": false,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/0/04/Hollow_Knight_cover.jpg"
+        "poster": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/software/switch/70010000003208/4643fb058642335c523910f3a7910575f56372f612f7c0c9a497aaae978d3e51"
     },
     {
         "id": "0c7c8e6e-bf1c-4d84-91b4-bcd2bb8eb90f",
@@ -602,7 +583,7 @@
         ],
         "rating": 9.0,
         "multiplayer": true,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/f/f2/TombRaider2013.jpg"
+        "poster": "https://upload.wikimedia.org/wikipedia/en/f/f1/TombRaider2013.jpg"
     },
     {
         "id": "54c8f139-7a62-4b8e-b1f3-91f3c9a97a4b",
@@ -618,7 +599,7 @@
         ],
         "rating": 8.9,
         "multiplayer": false,
-        "poster": "https://upload.wikimedia.org/wikipedia/en/5/5a/Witcher_box_art.jpg"
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-7i1106efMkuJjGjsjuaTdmQ_mxzDBHSu4Q&s"
     },
     {
         "id": "b13f82de-1d68-4cd6-83a3-17b278ad2815",
