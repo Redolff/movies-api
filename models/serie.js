@@ -4,7 +4,7 @@ const seriesJSON = readJSON('../series.json')
 
 export class SerieModel {
 
-    static getAll = async ({ season, genre }) => {
+    static getAll = async ({ season, genre, fromYear }) => {
         if(season) {
             const serieXseason = await seriesJSON.filter((serie) => serie.seasons == Number(season))
             return serieXseason
@@ -15,6 +15,13 @@ export class SerieModel {
                 (serie) => serie.genre.some((g) => g.toLowerCase() === genre.toLowerCase())
             )
             return serieXgenre
+        }
+
+        if(fromYear){
+            const serieFromYear = await seriesJSON.filter(
+                (serie) => serie.year >= Number(fromYear)
+            )
+            return serieFromYear
         }
 
         return seriesJSON

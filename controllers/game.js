@@ -4,8 +4,8 @@ export class GameController {
     }
 
     getAll = async (req, res) => {
-        const { platform } = req.query
-        const games = await this.gameModel.getAll({ platform })
+        const { platform, fromYear } = req.query
+        const games = await this.gameModel.getAll({ platform, fromYear })
         res.json(games)
     }
 

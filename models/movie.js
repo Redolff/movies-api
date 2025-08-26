@@ -43,14 +43,15 @@ export class MovieModel {
         const movieIndex = await moviesJSON.findIndex((movie) => movie.id === id)
 
         if(movieIndex === -1) {
-            return res.status(404).json({ message: 'Movie not found' })
+            return false
         }
 
         const updateMovie = {
             ...moviesJSON[movieIndex],
             ...input
         }
-
+        
+        moviesJSON[movieIndex] = updateMovie
         return updateMovie
     }
 

@@ -1,7 +1,7 @@
 ### Recuperar todas las peliculas
 GET http://localhost:3000/movies
 ### Recuperar una pelicula por ID
-GET http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+GET http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c
 ### Recuperar peliculas por Año
 GET http://localhost:3000/movies?year=2000
 ### Recuperar peliculas por Genero
@@ -25,8 +25,9 @@ Content-Type: application/json
 ### Actualizar una pelicula
 PATCH http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c
 Content-Type: application/json
+
 {
-    "year": 1900
+    "year": 1999
 }
 ### Eliminar una pelicula
 DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
