@@ -19,4 +19,13 @@ export class GameModel {
         return gameXid
     }
 
+    static delete = async ({ id }) => {
+        const gameIndex = await gamesJSON.findIndex((game) => game.id === id)
+        if(gameIndex === -1){
+            return false
+        }
+        gamesJSON.splice(gameIndex, 1)
+        return true
+    }
+
 } 

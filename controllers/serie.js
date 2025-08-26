@@ -17,4 +17,13 @@ export class SerieController {
         return res.status(404).json({ message: 'Movie not found' })
     }
 
+    delete = async (req, res) => {
+        const { id } = req.params
+        const serieIndex = await this.serieModel.delete({ id })
+        if(serieIndex === false){
+            return res.statusCode(404).json({ message: 'Serie not found' })
+        }
+        return res.json({ message: 'Serie deleted' })
+    }
+
 }

@@ -25,4 +25,13 @@ export class SerieModel {
         return serieXid
     }
 
+    static delete = async ({ id }) => {
+        const serieIndex = await seriesJSON.findIndex((serie) => serie.id === id)
+        if(serieIndex === -1) {
+            return false
+        }
+        seriesJSON.splice(serieIndex, 1)
+        return true
+    }
+
 }

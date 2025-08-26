@@ -68,7 +68,7 @@ export class MovieModel {
     static delete = async ({ id }) => {
         const movieIndex = await moviesJSON.findIndex((movie) => movie.id === id)
         if(movieIndex === -1){
-            return res.statusCode(404).json({ message: 'Movie not found' })
+            return false
         }
 
         moviesJSON.splice(movieIndex, 1)

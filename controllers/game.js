@@ -17,4 +17,13 @@ export class GameController {
         return res.status(404).json({ message: 'Game not found' })
     }
 
+    delete = async (req, res) => {
+        const { id } = req.params
+        const gameIndex = await this.gameModel.delete({ id })
+        if(gameIndex === false){
+            return res.status(404).json({ message: 'Game not found' })
+        }
+        return res.json({ message: 'Game deleted' })
+     }
+
 }

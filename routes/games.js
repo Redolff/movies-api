@@ -8,6 +8,7 @@ export const gameRouter = ({ gameModel }) => {
 
     gamesRouter.get('/', gameController.getAll)
     gamesRouter.get('/:id', gameController.getById)
+    gamesRouter.delete('/:id', gameController.delete)
 
     return gamesRouter
 }
