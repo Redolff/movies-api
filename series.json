@@ -12,7 +12,8 @@
             "Drama",
             "Thriller"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=ShNq5ToeCe8"
     },
     {
         "id": "s03-5l4m-3n2o-1p0q-987rs654tu33",
@@ -27,7 +28,8 @@
             "Drama",
             "Mystery"
         ],
-        "rate": 8.5
+        "rate": 8.5,
+        "trailerUrl": "https://www.youtube.com/watch?v=Z5uv7_ysu9M"
     },
     {
         "id": "s04-2v1w-3x4y-5z6a-321bc987de44",
@@ -42,7 +44,8 @@
             "Horror",
             "Mystery"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=mTvNeafShH0"
     },
     {
         "id": "s08-3j4k-5l6m-7n8o-654pq321rs88",
@@ -57,7 +60,8 @@
             "Drama",
             "History"
         ],
-        "rate": 8.5
+        "rate": 8.5,
+        "trailerUrl": "https://www.youtube.com/watch?v=qRpqQsdU-dg"
     },
     {
         "id": "s09-9t0u-1v2w-3x4y-432za876bc99",
@@ -72,7 +76,8 @@
             "Drama",
             "Thriller"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=paBZJJXUEtg"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-5c6cba2b5444ca",
@@ -88,7 +93,8 @@
             "Adventure",
             "Crimen"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=m1W7fkFmY2Q"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-5c6cba2b5211sa",
@@ -102,7 +108,8 @@
             "Romance",
             "Drama"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=mTgIk6iTjbI"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sa",
@@ -116,7 +123,8 @@
             "Drama",
             "Crimen"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=mN7xQF3hO1M"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sb",
@@ -130,7 +138,8 @@
             "Mistery",
             "Drama"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=mjXccGxvxhU"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sd",
@@ -143,7 +152,8 @@
         "genre": [
             "Drama"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=5gquha3ICHE"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211se",
@@ -157,7 +167,8 @@
             "Crimen",
             "Drama"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=xRr7oH2PCP0"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sg",
@@ -170,7 +181,8 @@
         "genre": [
             "Comedia"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=seSA6OzeNpA"
     },
     {
         "id": "062e3187-6bc7-4e0e-98a7-123acv2b4211sh",
@@ -184,7 +196,8 @@
             "Drama",
             "Comedia"
         ],
-        "rate": 9.9
+        "rate": 9.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=cUnkjEIW2-o"
     },
     {
         "id": "a1b2c3d4-1111-2222-3333-444455556666",
@@ -199,7 +212,8 @@
             "Drama",
             "Thriller"
         ],
-        "rate": 9.5
+        "rate": 9.5,
+        "trailerUrl": "https://www.youtube.com/watch?v=mXd1zTwcQ18"
     },
     {
         "id": "b2c3d4e5-2222-3333-4444-555566667777",
@@ -214,7 +228,8 @@
             "Adventure",
             "Drama"
         ],
-        "rate": 9.2
+        "rate": 9.2,
+        "trailerUrl": "https://www.youtube.com/watch?v=KPLWWIOCOOQ"
     },
     {
         "id": "c3d4e5f6-3333-4444-5555-666677778888",
@@ -229,7 +244,8 @@
             "Fantasy",
             "Horror"
         ],
-        "rate": 8.7
+        "rate": 8.7,
+        "trailerUrl": "https://www.youtube.com/watch?v=Wre1F5YyIlA"
     },
     {
         "id": "d4e5f6g7-4444-5555-6666-777788889999",
@@ -243,7 +259,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 8.8
+        "rate": 8.8,
+        "trailerUrl": "https://www.youtube.com/watch?v=oVzVdvGIC7U"
     },
     {
         "id": "e5f6g7h8-5555-6666-7777-888899990000",
@@ -258,7 +275,8 @@
             "Drama",
             "History"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=JWtnJjn6ng0"
     },
     {
         "id": "f6g7h8i9-6666-7777-8888-999900001111",
@@ -273,7 +291,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 8.8
+        "rate": 8.8,
+        "trailerUrl": "https://www.youtube.com/watch?v=xl8zdCY-abw"
     },
     {
         "id": "g7h8i9j0-7777-8888-9999-000011112222",
@@ -288,7 +307,8 @@
             "Drama",
             "Mystery"
         ],
-        "rate": 8.8
+        "rate": 8.8,
+        "trailerUrl": "https://www.youtube.com/watch?v=14FGjkrrXFk"
     },
     {
         "id": "h8i9j0k1-8888-9999-0000-111122223333",
@@ -303,7 +323,8 @@
             "Adventure",
             "Drama"
         ],
-        "rate": 8.1
+        "rate": 8.1,
+        "trailerUrl": "https://www.youtube.com/watch?v=ETY44yszyNc"
     },
     {
         "id": "i9j0k1l2-9999-0000-1111-222233334444",
@@ -318,7 +339,8 @@
             "Adventure",
             "Fantasy"
         ],
-        "rate": 8.7
+        "rate": 8.7,
+        "trailerUrl": "https://www.youtube.com/watch?v=aOC8E8z_ifw"
     },
     {
         "id": "j0k1l2m3-0000-1111-2222-333344445555",
@@ -332,7 +354,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 8.9
+        "rate": 8.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "k1l2m3n4-1111-2222-3333-444455556666",
@@ -347,7 +370,8 @@
             "Adventure",
             "Drama"
         ],
-        "rate": 8.5
+        "rate": 8.5,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "l2m3n4o5-2222-3333-4444-555566667777",
@@ -362,7 +386,8 @@
             "Adventure",
             "Drama"
         ],
-        "rate": 9.0
+        "rate": 9.0,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "m3n4o5p6-3333-4444-5555-666677778888",
@@ -377,7 +402,8 @@
             "Drama",
             "Mystery"
         ],
-        "rate": 9.1
+        "rate": 9.1,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "n4o5p6q7-4444-5555-6666-777788889999",
@@ -392,7 +418,8 @@
             "History",
             "Thriller"
         ],
-        "rate": 9.4
+        "rate": 9.4,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "o5p6q7r8-5555-6666-7777-888899990000",
@@ -407,7 +434,8 @@
             "Comedy",
             "Crime"
         ],
-        "rate": 8.7
+        "rate": 8.7,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "p6q7r8s9-6666-7777-8888-999900001111",
@@ -420,7 +448,8 @@
         "genre": [
             "Drama"
         ],
-        "rate": 8.9
+        "rate": 8.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "q7r8s9t0-7777-8888-9999-000011112222",
@@ -433,7 +462,8 @@
         "genre": [
             "Comedy"
         ],
-        "rate": 9.0
+        "rate": 9.0,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "r8s9t0u1-8888-9999-0000-111122223333",
@@ -447,7 +477,8 @@
             "Comedy",
             "Romance"
         ],
-        "rate": 8.9
+        "rate": 8.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s9t0u1v2-9999-0000-1111-222233334444",
@@ -461,7 +492,8 @@
             "Comedy",
             "Romance"
         ],
-        "rate": 8.3
+        "rate": 8.3,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "t0u1v2w3-0000-1111-2222-333344445555",
@@ -476,7 +508,8 @@
             "Drama",
             "Fantasy"
         ],
-        "rate": 8.4
+        "rate": 8.4,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "u1v2w3x4-1111-2222-3333-444455556666",
@@ -491,7 +524,8 @@
             "Mystery",
             "Sci-Fi"
         ],
-        "rate": 8.5
+        "rate": 8.5,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "v2w3x4y5-2222-3333-4444-555566667777",
@@ -506,7 +540,8 @@
             "Drama",
             "History"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "w3x4y5z6-3333-4444-5555-666677778888",
@@ -521,7 +556,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 8.2
+        "rate": 8.2,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "x4y5z6a7-4444-5555-6666-777788889999",
@@ -536,7 +572,8 @@
             "Horror",
             "Thriller"
         ],
-        "rate": 8.1
+        "rate": 8.1,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "y5z6a7b8-5555-6666-7777-888899990000",
@@ -550,7 +587,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 9.2
+        "rate": 9.2,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "z6a7b8c9-6666-7777-8888-999900001111",
@@ -564,7 +602,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 9.2
+        "rate": 9.2,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "l21n9k34-01n9-4i8k-92h0-67lk654o2p22",
@@ -578,7 +617,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "n43p1m56-23p1-5k0m-94j2-89nm876q4r44",
@@ -592,7 +632,8 @@
             "Drama",
             "Mystery"
         ],
-        "rate": 8.7
+        "rate": 8.7,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "o54q2n67-34q2-6l1n-95k3-90on987r5s55",
@@ -606,7 +647,8 @@
             "Drama",
             "Thriller"
         ],
-        "rate": 8.6
+        "rate": 8.6,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "t09v7s12-89v7-1q6s-00p8-45ts432w0x00",
@@ -620,7 +662,8 @@
             "Crime",
             "Drama"
         ],
-        "rate": 9.0
+        "rate": 9.0,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s12-2x3y-4z5a-6b7c-987de654fg12",
@@ -635,7 +678,8 @@
             "Drama",
             "Thriller"
         ],
-        "rate": 8.9
+        "rate": 8.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s13-8c9d-0e1f-2g3h-876ij543kl13",
@@ -650,7 +694,8 @@
             "Drama",
             "Thriller"
         ],
-        "rate": 9.3
+        "rate": 9.3,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s14-4l5m-6n7o-8p9q-765rs432tu14",
@@ -665,7 +710,8 @@
             "Drama",
             "History"
         ],
-        "rate": 8.3
+        "rate": 8.3,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s15-1v2w-3x4y-5z6a-543bc210de15",
@@ -680,7 +726,8 @@
             "Sci-Fi",
             "Thriller"
         ],
-        "rate": 8.0
+        "rate": 8.0,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s17-3j4k-5l6m-7n8o-654pq321rs17",
@@ -695,7 +742,8 @@
             "Fantasy",
             "Mystery"
         ],
-        "rate": 8.9
+        "rate": 8.9,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s19-5d6e-7f8g-9h0i-543lm210no19",
@@ -710,7 +758,8 @@
             "Drama",
             "Mystery"
         ],
-        "rate": 8.1
+        "rate": 8.1,
+        "trailerUrl": "https://www.youtube.com/watch?v=m0mt63FgDFE"
     },
     {
         "id": "s20-2x3y-4z5a-6b7c-321de987fg20",
@@ -725,6 +774,7 @@
             "Drama",
             "Horror"
         ],
-        "rate": 8.5
+        "rate": 8.5,
+        "trailerUrl": "https://www.youtube.com/watch?v=Es3B24z8fdA"
     }
 ]
