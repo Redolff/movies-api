@@ -10,8 +10,8 @@ export class GameModel {
             )
             return filteredGamesByPlatform
         }
-        
-        if(fromYear) {
+
+        if (fromYear) {
             const gameFromYear = await gamesJSON.filter(
                 (game) => game.year >= Number(fromYear)
             )
@@ -26,9 +26,25 @@ export class GameModel {
         return gameXid
     }
 
+    static update = async ({ id, input }) => {
+        const gameIndex = await gamesJSON.findIndex((game) => game.id === id)
+
+        if (gameIndex === -1) {
+            return false
+        }
+
+        const updateGame = {
+            ...gamesJSON[gameIndex],
+            ...input
+        }
+
+        gamesJSON[gameIndex] = updateGame
+        return updateGame
+    }
+
     static delete = async ({ id }) => {
         const gameIndex = await gamesJSON.findIndex((game) => game.id === id)
-        if(gameIndex === -1){
+        if (gameIndex === -1) {
             return false
         }
         gamesJSON.splice(gameIndex, 1)

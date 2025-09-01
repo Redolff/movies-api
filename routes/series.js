@@ -8,6 +8,7 @@ export const serieRouter = ({ serieModel }) => {
     
     seriesRouter.get('/', serieController.getAll)
     seriesRouter.get('/:id', serieController.getById)
+    seriesRouter.patch('/:id', serieController.update)
     seriesRouter.delete('/:id', serieController.delete)
 
     return seriesRouter

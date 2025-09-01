@@ -1,3 +1,5 @@
+import { validatePartialSerie } from "../schemas/series.js"
+
 export class SerieController {
     constructor({ serieModel }) {
         this.serieModel = serieModel
@@ -15,6 +17,21 @@ export class SerieController {
         if(serieXid) return res.json(serieXid[0])
 
         return res.status(404).json({ message: 'Movie not found' })
+    }
+
+    update = async (req, res) => {
+        const { id } = req.params
+        const result = validatePartialSerie(req.body)
+        if(result.error){
+            return res.status(400).json({ message: JSON.parse(result.error.message) })
+        }
+
+        const updateSerie = await this.serieModel.update({ id, input: result.data })
+        if(!updateSerie) {
+            return res.status(404).json({ message: "Serie not found" })
+        }
+
+        res.json(updateSerie)
     }
 
     delete = async (req, res) => {

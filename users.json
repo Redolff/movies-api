@@ -1,0 +1,78 @@
+[
+    {
+        "id": "user-1",
+        "nombre": "Federico",
+        "apellido": "Redolfo",
+        "email": "redolfofederico@gmail.com",
+        "password": "federico",
+        "fechaRegistro": "2025-08-29T14:32:00",
+        "rol": "admin",
+        "perfiles": [
+            {
+                "perfilId": "perfil-1",
+                "nombrePerfil": "Redolff",
+                "avatar": "https://example.com/avatar1.png",
+                "miLista": [
+                    {
+                        "id": "s15-1v2w-3x4y-5z6a-543bc210de15",
+                        "title": "The Man in the High Castle",
+                        "year": 2015,
+                        "director": "Frank Spotnitz",
+                        "seasons": 4,
+                        "episodes": 40,
+                        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS533R_6RDZAYsEwtOU5UsVANRbj9wodg_umA&s",
+                        "genrd": [
+                            "Drama",
+                            "Sci-Fi",
+                            "Thriller"
+                        ],
+                        "rate": 8.0,
+                        "trailerUrl": "https://www.youtube.com/watch?v=zzayf9GpXCI",
+                        "resource": "serie"
+                    },
+                    {
+                        "id": "ed2f9c3a-6e94-44cd-a9c6-7a2343bb8b10",
+                        "title": "Happy Gilmore 2",
+                        "year": 2025,
+                        "director": "Fernando Meirelles",
+                        "duration": 117,
+                        "poster": "https://m.media-amazon.com/images/M/MV5BYTQyNTRmYjItMDBjYi00YWNhLWEwMmQtNzJhODNiNjEzOWJlXkEyXkFqcGc@._V1_QL75_UX190_CR0,0,190,281_.jpg",
+                        "genre": [
+                            "Deporte"
+                        ],
+                        "rate": 8.1,
+                        "trailerUrl": "https://www.youtube.com/watch?v=UNFUzrVrmgQ",
+                        "resource": "movie"
+                    },
+                    {
+                        "id": "b9f7a2e4-1f7c-41e9-a0de-f9a45a92251b",
+                        "title": "God of War Ragnarök",
+                        "developer": "Santa Monica Studio",
+                        "publisher": "Sony Interactive Entertainment",
+                        "year": 2022,
+                        "platform": [
+                            "PS4",
+                            "PS5"
+                        ],
+                        "genre": [
+                            "Action-adventure",
+                            "Hack and Slash"
+                        ],
+                        "multiplayer": false,
+                        "rating": 9.6,
+                        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEmHlaYwsOI5Bdtt7HY5TzBP4RCBLsB9sN2w&s",
+                        "resource": "game"
+                    }
+                ]
+            },
+            {
+                "perfilId": "perfil-2",
+                "nombrePerfil": "Alejandra",
+                "avatar": "https://example.com/avatar2.png",
+                "miLista": [
+                    
+                ]
+            }
+        ]
+    }
+]

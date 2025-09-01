@@ -10,7 +10,8 @@ const movieSchema = z.object({
     genre: z.enum(["Drama", "Deporte", "History", "Thriller", "Adventure", "Sci-Fi", "Action",
         "Crime", "Romance", "Animation", "Biography", "Fantasy", "Mystery", "War", "Horror"
     ]).array(),
-    rate: z.preprocess((val) => Number(val), z.number().positive().max(10))
+    rate: z.preprocess((val) => Number(val), z.number().positive().max(10)),
+    trailerUrl: z.string().url()
 })
 
 export const validateMovie = (object) => {

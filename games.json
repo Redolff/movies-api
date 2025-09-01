@@ -10,7 +10,8 @@
             "Wii U"
         ],
         "genre": [
-            "Action-adventure",
+            "Action",
+            "Adventure",
             "Open world"
         ],
         "multiplayer": false,
@@ -31,7 +32,8 @@
         ],
         "genre": [
             "RPG",
-            "Action-adventure"
+            "Action",
+            "Adventure"
         ],
         "multiplayer": false,
         "rating": 9.5,
@@ -69,7 +71,8 @@
             "PS5"
         ],
         "genre": [
-            "Action-adventure",
+            "Action",
+            "Adventure",
             "Hack and Slash"
         ],
         "multiplayer": false,
@@ -110,7 +113,8 @@
             "Xbox One"
         ],
         "genre": [
-            "Action-adventure",
+            "Action",
+            "Adventure",
             "Open world"
         ],
         "multiplayer": true,
@@ -181,8 +185,7 @@
             "Switch"
         ],
         "genre": [
-            "Shooter",
-            "Multiplayer"
+            "Shooter"
         ],
         "poster": "https://upload.wikimedia.org/wikipedia/en/5/51/Overwatch_cover_art.jpg",
         "rate": 8.9,
@@ -197,8 +200,7 @@
             "Switch"
         ],
         "genre": [
-            "Fighting",
-            "Multiplayer"
+            "Fighting"
         ],
         "poster": "https://assets.nintendo.com/image/upload/q_auto/f_auto/ncom/software/switch/70010000012332/ac4d1fc9824876ce756406f0525d50c57ded4b2a666f6dfe40a6ac5c3563fad9",
         "rate": 9.5,
@@ -286,7 +288,7 @@
             "Switch"
         ],
         "genre": [
-            "Survival Horror"
+            "Horror"
         ],
         "poster": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png",
         "rate": 9.5,
@@ -388,7 +390,7 @@
         "year": 2001,
         "developer": "Konami",
         "platform": [
-            "PlayStation 2",
+            "PS2",
             "Xbox",
             "PC"
         ],
@@ -422,7 +424,7 @@
         "year": 2004,
         "developer": "Polyphony Digital",
         "platform": [
-            "PlayStation 2"
+            "PS2"
         ],
         "genre": [
             "Racing",
@@ -453,7 +455,7 @@
         "year": 2016,
         "developer": "Naughty Dog",
         "platform": [
-            "PlayStation 4",
+            "PS4",
             "PC"
         ],
         "genre": [
@@ -470,7 +472,7 @@
         "year": 2016,
         "developer": "Japan Studio",
         "platform": [
-            "PlayStation 4"
+            "PS4"
         ],
         "genre": [
             "Adventure",
@@ -537,7 +539,7 @@
         "developer": "Bungie",
         "platform": [
             "PC",
-            "PlayStation 4",
+            "PS4",
             "Xbox One"
         ],
         "genre": [
@@ -574,7 +576,7 @@
         "developer": "Crystal Dynamics",
         "platform": [
             "PC",
-            "PlayStation 3",
+            "PS3",
             "Xbox 360"
         ],
         "genre": [

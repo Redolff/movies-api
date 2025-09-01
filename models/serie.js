@@ -32,6 +32,19 @@ export class SerieModel {
         return serieXid
     }
 
+    static update = async ({ id, input }) => {
+        const serieIndex = await seriesJSON.findIndex((serie) => serie.id === id)
+        if(serieIndex === -1) return false
+
+        const updateSerie = {
+            ...seriesJSON[serieIndex],
+            ...input
+        }
+
+        seriesJSON[serieIndex] = updateSerie
+        return updateSerie
+    }
+
     static delete = async ({ id }) => {
         const serieIndex = await seriesJSON.findIndex((serie) => serie.id === id)
         if(serieIndex === -1) {
