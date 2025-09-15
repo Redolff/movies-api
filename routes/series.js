@@ -7,6 +7,7 @@ export const serieRouter = ({ serieModel }) => {
     const serieController = new SerieController({ serieModel })
     
     seriesRouter.get('/', serieController.getAll)
+    seriesRouter.post('/', serieController.create)
     seriesRouter.get('/:id', serieController.getById)
     seriesRouter.patch('/:id', serieController.update)
     seriesRouter.delete('/:id', serieController.delete)

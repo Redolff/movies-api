@@ -27,17 +27,17 @@ export class MovieController {
         }
 
         const updateMovie = await this.movieModel.update({ id, input: result.data })
-        if(!updateMovie) {
-            return res.status(404).json({ message: 'Movie not found '})
+        if (!updateMovie) {
+            return res.status(404).json({ message: 'Movie not found ' })
         }
-        
+
         res.json(updateMovie)
     }
 
     create = async (req, res) => {
         const result = validateMovie(req.body)
         if (result.error) {
-            return res.status(400).json({ error: JSON.parse(result.error.message) })
+            return res.status(400).json({ message: JSON.parse(result.error.message) })
         }
 
         const newMovie = await this.movieModel.create({ input: result.data })
@@ -47,10 +47,10 @@ export class MovieController {
     delete = async (req, res) => {
         const { id } = req.params
         const movieIndex = await this.movieModel.delete({ id })
-        if(movieIndex === false) {
+        if (movieIndex === false) {
             return res.statusCode(404).json({ message: 'Movie not found' })
         }
-        
+
         res.json({ message: 'Movie deleted' })
     }
 } 

@@ -1,4 +1,4 @@
-import { validatePartialGame } from "../schemas/games.js"
+import { validateGame, validatePartialGame } from "../schemas/games.js"
 
 export class GameController {
     constructor({ gameModel }) {
@@ -32,6 +32,16 @@ export class GameController {
         }
 
         res.json(udpateGame)
+    }
+
+    create = async (req, res) => {
+        const result = validateGame(req.body)
+        if(result.error) {
+            return res.status(400).json({ message: JSON.parse(result.error.message) })
+        }
+
+        const newGame = await this.gameModel.create({ input: result.data })
+        res.status(201).json(newGame)
     }
 
     delete = async (req, res) => {

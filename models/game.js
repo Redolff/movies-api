@@ -42,6 +42,16 @@ export class GameModel {
         return updateGame
     }
 
+    static create = async ({ input }) => {
+        const newGame = {
+            id: crypto.randomUUID(),
+            ...input
+        }
+
+        gamesJSON.push(newGame)
+        return newGame
+    }
+
     static delete = async ({ id }) => {
         const gameIndex = await gamesJSON.findIndex((game) => game.id === id)
         if (gameIndex === -1) {

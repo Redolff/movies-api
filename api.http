@@ -9,6 +9,7 @@ GET http://localhost:3000/movies?genre=sci-fi
 ### Crear una pelicula
 POST http://localhost:3000/movies
 Content-Type: application/json
+
 {
     "title": "El sicario",
     "year": 2026,
@@ -20,7 +21,8 @@ Content-Type: application/json
         "Adventure",
         "Sci-Fi"
     ],
-    "rate": 9.98
+    "rate": 9.98,
+    "trailerUrl": "https://www.youtube.com/watch?v=5QqkTUFdnE8"
 }
 ### Actualizar una pelicula
 PATCH http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c

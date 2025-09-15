@@ -1,4 +1,4 @@
-import { validatePartialSerie } from "../schemas/series.js"
+import { validatePartialSerie, validateSerie } from "../schemas/series.js"
 
 export class SerieController {
     constructor({ serieModel }) {
@@ -32,6 +32,16 @@ export class SerieController {
         }
 
         res.json(updateSerie)
+    }
+
+    create = async (req, res) => {
+        const result = validateSerie(req.body)
+        if(result.error) {
+            return res.status(400).json({ message: JSON.parse(result.error.message) })
+        }
+
+        const newSerie = await this.serieModel.create({ input: result.data })
+        res.status(201).json(newSerie)
     }
 
     delete = async (req, res) => {

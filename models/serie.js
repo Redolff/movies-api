@@ -45,6 +45,16 @@ export class SerieModel {
         return updateSerie
     }
 
+    static create = async ({ input }) => {
+        const newSerie = {
+            id: crypto.randomUUID(),
+            ...input
+        }
+
+        seriesJSON.push(newSerie)
+        return newSerie 
+    }
+
     static delete = async ({ id }) => {
         const serieIndex = await seriesJSON.findIndex((serie) => serie.id === id)
         if(serieIndex === -1) {
