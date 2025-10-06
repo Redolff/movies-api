@@ -1,79 +1,74 @@
 import { randomUUID } from 'node:crypto'
-import { readJSON } from '../utils/utils.js'
-const moviesJSON = readJSON('../movies.json')
+import { connect } from '../database/connection.js'
+import { ObjectId } from 'mongodb'
 
 export class MovieModel {
 
-    static getAll = async ({ genre, year, fromYear }) => {
+    static async getAll({ genre, year, fromYear }) {
+        const db = await connect()
+        const movies = db.collection('movies')
+
         if (genre) {
-            const moviesGenre = await moviesJSON.filter(
-                movie => movie.genre.some((g) => g.toLowerCase() === genre.toLowerCase())
-            )
-            return moviesGenre
+            return movies.find({
+                genre: {
+                    $elemMatch: {
+                        $regex: genre,
+                        $options: 'i'
+                    }
+                }
+            }).toArray()
         }
 
-        if(year) {
-            const moviesYear = await moviesJSON.filter(
-                (movie) => movie.year === Number(year)
-            )
-            return moviesYear
+        if (year) {
+            return movies.find({ year: Number(year) }).toArray()
         }
 
-        if(fromYear) {
-            const moviesPremiere = await moviesJSON.filter(
-                (movie) => movie.year >= Number(fromYear)
-            )
-            return moviesPremiere
+        if (fromYear) {
+            return movies.find({ year: {$gte: Number(fromYear)} }).toArray()
         }
 
-        return moviesJSON
+        return movies.find({}).toArray()
     }
 
-    static getById = async ({ id }) => {
-        const movieXid = await moviesJSON.filter((movie) => movie.id === id)
-        return movieXid
+    static async getById({ id }) {
+        const db = await connect()
+        const movies = db.collection('movies')
+
+        const objectId = new ObjectId(id)
+        return await movies.findOne({ _id: objectId })
     }
 
-    static getByYear = async ({ year }) => {
-        const moviesXyear = await moviesJSON.filter((movie) => movie.year === Number(year))
-        return moviesXyear
+    static async update({ id, input }) {
+        const db = await connect()
+        const movies = db.collection('movies')
+
+        const objectId = new ObjectId(id)
+        const result = await movies.findOneAndUpdate(
+            { _id: objectId },
+            { $set: input },
+            { returnDocument: 'after' }
+        )
+
+        return result
+    }
+    
+    static async create({ input }) {
+        const db = await connect()
+        const movies = db.collection('movies')
+
+        const result = await movies.insertOne(input)
+
+        return result
     }
 
-    static update = async ({ id, input }) => {
-        const movieIndex = await moviesJSON.findIndex((movie) => movie.id === id)
+    static async delete({ id }) {
+        const db = await connect()
+        const movies = db.collection('movies')
 
-        if(movieIndex === -1) {
-            return false
-        }
-
-        const updateMovie = {
-            ...moviesJSON[movieIndex],
-            ...input
-        }
-        
-        moviesJSON[movieIndex] = updateMovie
-        return updateMovie
-    }
-
-    static create = async ({ input }) => {
-        const newMovie = {
-            id: randomUUID(),
-            ...input
-        }
-
-        moviesJSON.push(newMovie)
-
-        return newMovie
-    }
-
-    static delete = async ({ id }) => {
-        const movieIndex = await moviesJSON.findIndex((movie) => movie.id === id)
-        if(movieIndex === -1){
-            return false
-        }
-
-        moviesJSON.splice(movieIndex, 1)
-        return true
+        const objectId = new ObjectId(id)
+        const result = await movies.deleteOne({ _id: objectId })
+    
+        return result
     }
 
 }

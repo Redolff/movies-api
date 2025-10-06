@@ -1,7 +1,7 @@
 ### Recuperar todas las PELICULAS
 GET http://localhost:3000/movies
 ### Recuperar una pelicula por ID
-GET http://localhost:3000/movies/7d2832f8-c70a-410e-8963-4c93bf36cc9c
+GET http://localhost:3000/movies/68895e42f3975a4ba7c0ea71
 ### Recuperar peliculas por Año
 GET http://localhost:3000/movies?year=2000
 ### Recuperar peliculas por Genero
@@ -37,7 +37,7 @@ DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
 ### Recuperar todas las SERIES
 GET http://localhost:3000/series
 ### Recuperar serie por ID
-GET http://localhost:3000/series/s02-7c6d-8e9f-0g1h-234ij567kl22
+GET http://localhost:3000/series/68e33531343f0dbb9b0c318a
 ### Recuperar serie por cant TEMPORADAS
 GET http://localhost:3000/series?season=2
 ### Recuperar serie por GENRE

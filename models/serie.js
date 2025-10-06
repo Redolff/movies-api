@@ -1,67 +1,72 @@
-import { randomUUID } from 'node:crypto'
-import { readJSON } from '../utils/utils.js'
-const seriesJSON = readJSON('../series.json')
+import { connect } from '../database/connection.js'
+import { ObjectId } from 'mongodb'
 
 export class SerieModel {
 
     static getAll = async ({ season, genre, fromYear }) => {
-        if(season) {
-            const serieXseason = await seriesJSON.filter((serie) => serie.seasons == Number(season))
-            return serieXseason
+        const db = await connect()
+        const series = db.collection('series')
+
+        if (season) {
+            return await series.find({ seasons: Number(season) }).toArray()
         }
 
-        if(genre) {
-            const serieXgenre = await seriesJSON.filter(
-                (serie) => serie.genre.some((g) => g.toLowerCase() === genre.toLowerCase())
-            )
-            return serieXgenre
+        if (genre) {
+            return await series.find({
+                genre: {
+                    $elemMatch: {
+                        $regex: genre,
+                        $options: 'i'
+                    }
+                }
+            }).toArray()
         }
 
-        if(fromYear){
-            const serieFromYear = await seriesJSON.filter(
-                (serie) => serie.year >= Number(fromYear)
-            )
-            return serieFromYear
+        if (fromYear) {
+            return await series.find({ year: { $gte: Number(fromYear) } }).toArray()
         }
 
-        return seriesJSON
+        return await series.find({}).toArray()
     }
 
     static getById = async ({ id }) => {
-        const serieXid = await seriesJSON.filter((serie) => serie.id === id)
-        return serieXid
+        const db = await connect()
+        const series = db.collection('series')
+        
+        const objectId = new ObjectId(id)
+        return await series.findOne({ _id: objectId })
     }
 
     static update = async ({ id, input }) => {
-        const serieIndex = await seriesJSON.findIndex((serie) => serie.id === id)
-        if(serieIndex === -1) return false
+        const db = await connect()
+        const series = db.collection('series')
 
-        const updateSerie = {
-            ...seriesJSON[serieIndex],
-            ...input
-        }
+        const objectId = new ObjectId(id)
+        const result = await series.findOneAndUpdate(
+            { _id: objectId },
+            { $set: input },
+            { returnDocument: 'after' }
+        )
 
-        seriesJSON[serieIndex] = updateSerie
-        return updateSerie
+        return result
     }
 
     static create = async ({ input }) => {
-        const newSerie = {
-            id: crypto.randomUUID(),
-            ...input
-        }
+        const db = await connect()
+        const series = db.collection('series')
 
-        seriesJSON.push(newSerie)
-        return newSerie 
+        const result = await series.insertOne(input)
+        return result
     }
 
     static delete = async ({ id }) => {
-        const serieIndex = await seriesJSON.findIndex((serie) => serie.id === id)
-        if(serieIndex === -1) {
-            return false
-        }
-        seriesJSON.splice(serieIndex, 1)
-        return true
+        const db = await connect()
+        const series = db.collection('series')
+
+        const objectId = new ObjectId(id)
+        const result = await series.deleteOne({ _id: objectId })
+
+        return result
     }
 
 }

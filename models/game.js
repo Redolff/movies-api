@@ -1,64 +1,67 @@
-import { readJSON } from "../utils/utils.js"
-const gamesJSON = readJSON('../games.json')
+import { ObjectId } from "mongodb"
+import { connect } from "../database/connection.js"
 
 export class GameModel {
 
     static getAll = async ({ platform, fromYear }) => {
-        if (platform) {
-            const filteredGamesByPlatform = await gamesJSON.filter(
-                (game) => game.platform.some((p) => p.toLowerCase() === platform.toLowerCase())
-            )
-            return filteredGamesByPlatform
+        const db = await connect()
+        const games = db.collection('games')
+
+        if(platform) {
+            return await games.find({
+                platform: {
+                    $elemMatch: {
+                        $regex: platform,
+                        $options: 'i'
+                    }
+                }
+            }).toArray()
         }
 
-        if (fromYear) {
-            const gameFromYear = await gamesJSON.filter(
-                (game) => game.year >= Number(fromYear)
-            )
-            return gameFromYear
+        if(fromYear) {
+            return await games.find({year: {$gte: Number(fromYear)} }).toArray()
         }
 
-        return gamesJSON
+        return await games.find({}).toArray()
     }
 
     static getById = async ({ id }) => {
-        const gameXid = await gamesJSON.filter((game) => game.id === id)
-        return gameXid
+        const db = await connect()
+        const games = db.collection('games')
+
+        const objectId = new ObjectId(id)
+        return await games.findOne({ _id: objectId })
     }
 
     static update = async ({ id, input }) => {
-        const gameIndex = await gamesJSON.findIndex((game) => game.id === id)
+        const db = await connect()
+        const games = db.collection('games')
 
-        if (gameIndex === -1) {
-            return false
-        }
+        const objectId = new ObjectId(id)
+        const result = await games.findOneAndUpdate(
+            { _id: objectId },
+            { $set: input },
+            { returnDocument: 'after' }
+        )
 
-        const updateGame = {
-            ...gamesJSON[gameIndex],
-            ...input
-        }
-
-        gamesJSON[gameIndex] = updateGame
-        return updateGame
+        return result
     }
 
     static create = async ({ input }) => {
-        const newGame = {
-            id: crypto.randomUUID(),
-            ...input
-        }
+        const db = await connect()
+        const games = db.collection('games')
 
-        gamesJSON.push(newGame)
-        return newGame
+        const result = await games.insertOne({ input })
+
+        return result
     }
 
     static delete = async ({ id }) => {
-        const gameIndex = await gamesJSON.findIndex((game) => game.id === id)
-        if (gameIndex === -1) {
-            return false
-        }
-        gamesJSON.splice(gameIndex, 1)
-        return true
+        const db = await connect()
+        const games = db.collection('games')
+
+        const objectId = new ObjectId(id)
+        return await games.deleteOne({ _id: objectId })
     }
 
 } 
