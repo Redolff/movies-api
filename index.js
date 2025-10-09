@@ -7,6 +7,8 @@ import { serieRouter } from './routes/series.js'
 import { SerieModel } from './models/serie.js'
 import { gameRouter } from './routes/games.js'
 import { GameModel } from './models/game.js'
+import { userRouter } from './routes/user.js'
+import { UserModel } from './models/user.js'
 
 const PORT = process.env.PORT
 const app = express()
@@ -17,6 +19,7 @@ app.disable('x-powered-by')
 app.use('/movies', movieRouter({ movieModel: MovieModel }))
 app.use('/series', serieRouter({ serieModel: SerieModel }))
 app.use('/games', gameRouter({ gameModel: GameModel }))
+app.use('/users', userRouter({ userModel: UserModel }))
 
 app.use((req, res) => {
     res.status(404).send('404 Not Found')

@@ -11,7 +11,7 @@ POST http://localhost:3000/movies
 Content-Type: application/json
 
 {
-    "title": "El sicario",
+    "title": "Nueva movie",
     "year": 2026,
     "director": "Frank Redolfo",
     "duration": 163,
@@ -56,3 +56,18 @@ GET http://localhost:3000/games
 GET http://localhost:3000/games/5e82b624-0b7c-421f-9af8-2ec4b2b17e22
 ### Recuperar los juegos por plataforma
 GET http://localhost:3000/games?platform=pc
+
+### Recuperar todos los USUARIOS
+GET http://localhost:3000/users
+### Recuperar un USUARIO por ID
+GET http://localhost:3000/users/68e7511e70ee9147ac2b4bdc
+### Crear un USUARIO
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstName": "Federico",
+    "lastName": "Redolfo",
+    "email": "fdera@gmail.com",
+    "password": "Federico"
+}

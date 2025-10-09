@@ -1,10 +1,58 @@
-import { readJSON } from "../utils/utils";
-const userJSON = readJSON('../users.json')
+import 'dotenv/config'
+import { ObjectId } from "mongodb"
+import { connect } from "../database/connection.js"
+import bcrypt from 'bcrypt'
 
 export class UserModel {
 
-    static getById = async ({ id }) => {
-        const userXid = await userJSON.filter((user) => user.id === id)
-        return userXid
+    static getAll = async () => {
+        const db = await connect()
+        const users = db.collection('users')
+
+        const usuarios = await users.find({}).toArray()
+        
+        const allUsers = usuarios.map(({ password: _, ...rest }) => rest)
+        return allUsers
     }
+
+    static getById = async ({ id }) => {
+        const db = await connect()
+        const users = db.collection('users')
+
+        const objectId = new ObjectId(id)
+        const user = await users.findOne({ _id: objectId })
+
+        const { password: _, ...userId } = user
+        return userId
+    }
+
+    static create = async ({ input }) => {
+        const db = await connect()
+        const users = db.collection('users')
+
+        const { password, email, ...rest } = input
+
+        const existingUser = await users.findOne({ email })
+        if(existingUser) {
+            const error = new Error('El usuario ya existe')
+            error.status = 409
+            throw error
+        } 
+
+        const SALT_ROUNDS = Number(process.env.SALT_ROUND)
+        const hashedPassword = await bcrypt.hash(password, SALT_ROUNDS) 
+
+        const newUser = {
+            ...rest,
+            email,
+            password: hashedPassword
+        }
+
+        const result = await users.insertOne(newUser)
+        const userCreated = await users.findOne({ _id: result.insertedId })
+
+        const { password: _, ...user } = userCreated
+        return user
+    }
+ 
 }
