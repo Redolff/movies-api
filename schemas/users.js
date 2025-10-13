@@ -7,6 +7,7 @@ const userSchema = z.object({
     password: z.string()
         .regex(/[A-Z]/, 'Debe contener al menos una letra mayúscula')
         .regex(/[a-z]/, 'Debe contener al menos una letra minuscula'),
+    role: z.string(),
 })
 
 export const validateUser = (object) => {

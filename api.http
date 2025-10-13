@@ -68,6 +68,7 @@ Content-Type: application/json
 {
     "firstName": "Federico",
     "lastName": "Redolfo",
-    "email": "fdera@gmail.com",
-    "password": "Federico"
+    "email": "redolfofederico@gmail.com",
+    "password": "Federico",
+    "role": "admin"
 }

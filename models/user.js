@@ -26,7 +26,7 @@ export class UserModel {
         return userId
     }
 
-    static create = async ({ input }) => {
+    static create = async ({ input }) => { // Proceso interno, crea usuarios en la DB, administrar usuarios.
         const db = await connect()
         const users = db.collection('users')
 
