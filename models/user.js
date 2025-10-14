@@ -26,7 +26,21 @@ export class UserModel {
         return userId
     }
 
-    static create = async ({ input }) => { // Proceso interno, crea usuarios en la DB, administrar usuarios.
+    static update = async ({id, input}) => {
+        const db = await connect()
+        const users = db.collection('users')
+
+        const objectId = new ObjectId(id)
+        const result = await users.findOneAndUpdate(
+            { _id: objectId },
+            { $set: input },
+            { returnDocument: 'after' }
+        )
+
+        return result
+    }
+
+    static create = async (input) => { // Proceso interno, crea usuarios en la DB, administrar usuarios.
         const db = await connect()
         const users = db.collection('users')
 
@@ -53,6 +67,16 @@ export class UserModel {
 
         const { password: _, ...user } = userCreated
         return user
+    }
+
+    static delete = async ({ id }) => {
+        const db = await connect()
+        const users = db.collection('users')
+
+        const objectId = new ObjectId(id)
+        const result = await users.deleteOne({ _id: objectId })
+
+        return result
     }
  
 }

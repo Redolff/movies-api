@@ -1,6 +1,4 @@
-import { validateUser } from "../schemas/users.js"
-import jwt from 'jsonwebtoken'
-import bcrypt from 'bcrypt'
+import { validatePartialUser, validateUser } from "../schemas/users.js"
 
 export class UserController {
     constructor({ userModel }) {
@@ -21,6 +19,19 @@ export class UserController {
         return res.status(404).json({ message: 'User not found' })
     }
 
+    update = async (req, res) => {
+        const { id } = req.params
+        const result = validatePartialUser(req.body)
+        if(result.error) return res.status(400).json({ message: JSON.parse(result.error.message) })
+
+        const updatedUser = await this.userModel.update({ id, input: result.data })
+        if(!updatedUser) {
+            return res.status(404).json({ message: 'User not found' })
+        }
+
+        return res.json(updatedUser)
+    }
+
     create = async (req, res) => {
         const result = validateUser(req.body)
         try {
@@ -36,6 +47,15 @@ export class UserController {
             console.error(error)
             return res.status(500).json({ message: 'Error interno del servidor' })
         }
+    }
+
+    static delete = async (req, res) => {
+        const { id } = req.params
+        const userIndex = await this.userModel.delete({ id })
+        if(userIndex === false){
+            return res.status(404).json({ message: 'User not found' })
+        } 
+        return res.status(200).json({ message: 'User deleted' })
     }
 
 }

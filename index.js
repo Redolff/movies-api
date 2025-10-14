@@ -1,6 +1,7 @@
 import 'dotenv/config'
 import express, { json } from 'express'
 import { corsMiddleware } from './middlewares/cors.js'
+import { tokenMiddleware } from './middlewares/token.js'
 import { movieRouter } from './routes/movies.js'
 import { MovieModel } from './models/movie.js'
 import { serieRouter } from './routes/series.js'
@@ -9,17 +10,22 @@ import { gameRouter } from './routes/games.js'
 import { GameModel } from './models/game.js'
 import { userRouter } from './routes/user.js'
 import { UserModel } from './models/user.js'
+import { authRouter } from './routes/auth.js'
+import cookieParser from 'cookie-parser'
 
 const PORT = process.env.PORT
 const app = express()
 app.use(json()) // CORS --> validacion de 'Content-Type: application/json'
 app.use(corsMiddleware()) // CORS instalado, por defecto el "*"
+app.use(cookieParser())
+app.use(tokenMiddleware)
 app.disable('x-powered-by')
 
 app.use('/movies', movieRouter({ movieModel: MovieModel }))
 app.use('/series', serieRouter({ serieModel: SerieModel }))
 app.use('/games', gameRouter({ gameModel: GameModel }))
 app.use('/users', userRouter({ userModel: UserModel }))
+app.use('/auth', authRouter())
 
 app.use((req, res) => {
     res.status(404).send('404 Not Found')
