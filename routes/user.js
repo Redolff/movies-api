@@ -7,8 +7,10 @@ export const userRouter = ({ userModel }) => {
     const userController = new UserController({ userModel })
 
     userRouter.get('/', userController.getAll)
-    userRouter.get('/:id', userController.getById)
     userRouter.post('/', userController.create)
+    userRouter.get('/:id', userController.getById)
+    userRouter.patch('/:id', userController.update)
+    userRouter.delete('/:id', userController.delete)
 
     return userRouter
 }

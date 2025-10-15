@@ -35,7 +35,7 @@ export class UserController {
     create = async (req, res) => {
         const result = validateUser(req.body)
         try {
-            const newUser = await this.userModel.create({ input: result.data })
+            const newUser = await this.userModel.create(result.data)
             return res.status(201).json(newUser)
         } catch(error){
             if(result.error) {
@@ -49,7 +49,7 @@ export class UserController {
         }
     }
 
-    static delete = async (req, res) => {
+    delete = async (req, res) => {
         const { id } = req.params
         const userIndex = await this.userModel.delete({ id })
         if(userIndex === false){

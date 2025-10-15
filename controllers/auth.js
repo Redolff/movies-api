@@ -15,9 +15,9 @@ export class AuthController {
         try {
 
             const user = await users.findOne({ email })
-            if (!user) return res.status(401).json({ message: 'User not found' })
+            if (!user) return res.status(401).json({ message: 'El usuario no esta registrado' })
             const validPassword = await bcrypt.compare(password, user.password)
-            if (!validPassword) return res.status(401).json({ message: 'Password incorrect' })
+            if (!validPassword) return res.status(401).json({ message: 'Contraseña incorrecta' })
 
             const token = jwt.sign(
                 { id: user._id, email: user.email },
@@ -32,9 +32,9 @@ export class AuthController {
                 secure: process.env.NODE_ENV === 'production',
                 sameSite: 'strict',
                 maxAge: 1000 * 60 * 60
-            }).send({ safeUser, token })
+            })
 
-            return res.json({ message: 'Login successful', user: safeUser })
+            return res.json({ user: safeUser, token, message: 'Login exitoso' })
         } catch (error) {
             console.error('Error en el login: ', error)
             return res.status(500).json({ message: 'Error interno en el servidor' })
@@ -42,9 +42,15 @@ export class AuthController {
     }
 
     static register = async (req, res) => {
+        const db = await connect()
+        const users = db.collection('users')
         const result = validateUser(req.body)
         if (result.error) return res.status(400).json({ message: result.error })
+        const existingUser = await users.findOne({ email: result.data.email })
+        if(existingUser) return res.status(409).json({ message: 'El mail ya está registrado' })
+        
         try {
+
             const newUser = await UserModel.create({
                 ...result.data,
                 role: 'user'
@@ -62,7 +68,9 @@ export class AuthController {
     }
 
     static logout = async (req, res) => {
-        res.clearCookie('access_token').json({ message: 'Logout successful' })
+        res
+        .clearCookie('access_token')
+        .json({ message: 'Logout successful' })
     }
 
 }
