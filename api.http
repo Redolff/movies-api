@@ -95,3 +95,15 @@ Content-Type: application/json
 
 ### Logout de un USUARIO
 POST http://localhost:3000/auth/logout
+
+### Crear un PERFIL de un USER
+POST http://localhost:3000/users/68ed68ac8d0e440b2817d900/profiles
+Content-Type: application/json
+
+{
+    "name": "juan",
+    "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZl2VrMLl5aN49YNku-Hfm2oXegj2liUzPXA&s"
+}
+
+### Eliminar un PROFILE de un USUARIO
+DELETE http://localhost:3000/users/68ed68ac8d0e440b2817d900/68f5fcc52908d560165192b0
