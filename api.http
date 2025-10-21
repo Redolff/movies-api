@@ -107,3 +107,22 @@ Content-Type: application/json
 
 ### Eliminar un PROFILE de un USUARIO
 DELETE http://localhost:3000/users/68ed68ac8d0e440b2817d900/68f5fcc52908d560165192b0
+
+### Agregar un ITEM a MYLIST a un PROFILE de un USER
+POST http://localhost:3000/users/68ed68ac8d0e440b2817d900/mylist
+Content-Type: application/json
+
+{
+    "profileId": "68f5dfabae8958455bf10991",
+    "category": "movies",
+    "item": {
+        "title": "El sicario",
+        "year": 2025,
+        "director": "Frank Redolfo",
+        "duration": 163,
+        "genre": ["Drama", "Adventure"],
+        "rate": 9.98,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdrxjFYqosxGcxUCVxcrRu5PtSPAhp7b7xYQ&s",
+        "trailerUrl": "https://www.youtube.com/watch?v=5QqkTUFdnE8&t=1s"
+    }
+}

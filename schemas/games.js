@@ -1,6 +1,6 @@
 import z from 'zod'
 
-const gameSchema = z.object({
+export const gameSchema = z.object({
     title: z.string(),
     year: z.preprocess((val) => Number(val), z.number().int().min(1900).max(2026)),
     developer: z.string(),

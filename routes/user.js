@@ -12,6 +12,8 @@ export const userRouter = ({ userModel }) => {
     userRouter.post('/:id/profiles', userController.createProfile)
     userRouter.delete('/:id/:profileId', userController.deleteProfile)
 
+    userRouter.post('/:id/mylist', userController.addToMyList)
+
     userRouter.get('/:id', userController.getById)
     userRouter.patch('/:id', userController.update)
     userRouter.delete('/:id', userController.delete)

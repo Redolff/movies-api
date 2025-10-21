@@ -85,12 +85,13 @@ export class UserModel {
             _id: new ObjectId(),
             name: profile.name,
             avatar: profile.avatar,
+            myList: { movies: [], series: [], games: [] }
         }
 
         const result = await users.findOneAndUpdate(
             { _id: objectId },
             { $push: { profiles: newProfile } },
-            { returnDocument: 'after' }
+            { returnDocument: 'after', projection: { password: 0 } }
         )
 
         return result
@@ -120,7 +121,27 @@ export class UserModel {
         )
 
         return result
+    }
 
+    static addToMyList = async ({ id, profileId, category, item }) => {
+        const db = await connect()
+        const users = db.collection('users')
+
+        const objectId = new ObjectId(id)
+        const profileObjectId = new ObjectId(profileId)
+
+        const user = await users.findOne({ _id: objectId, "profiles._id": profileObjectId })
+        if(!user) throw new Error('User or profile not found')
+
+        const result = await users.updateOne(
+            { _id: objectId, "profiles._id": profileObjectId },
+            { $push: { [`profiles.$.myList.${category}`]: item } }
+        )
+
+        if(result.modifiedCount === 0) throw new Error('Failed to add item')
+        
+        return { message: `Added ${category} item to myList`, item }
+        
     }
 
 }

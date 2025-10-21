@@ -1,7 +1,7 @@
 import z from 'zod'
 
 // Schema de validaciones para las movies
-const movieSchema = z.object({
+export const movieSchema = z.object({
     title: z.string(),
     year: z.preprocess((val) => Number(val), z.number().int().min(1900).max(2026)),
     director: z.string(),
