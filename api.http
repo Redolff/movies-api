@@ -97,7 +97,7 @@ Content-Type: application/json
 POST http://localhost:3000/auth/logout
 
 ### Crear un PERFIL de un USER
-POST http://localhost:3000/users/68ed68ac8d0e440b2817d900/profiles
+POST http://localhost:3000/profiles/userID
 Content-Type: application/json
 
 {
@@ -105,8 +105,8 @@ Content-Type: application/json
     "avatar": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZl2VrMLl5aN49YNku-Hfm2oXegj2liUzPXA&s"
 }
 
-### Eliminar un PROFILE de un USUARIO
-DELETE http://localhost:3000/users/68ed68ac8d0e440b2817d900/68f5fcc52908d560165192b0
+### Eliminar un PROFILE de un USER
+DELETE http://localhost:3000/profiles/userID/profileID
 
 ### Agregar un ITEM a MYLIST a un PROFILE de un USER
 POST http://localhost:3000/users/68ed68ac8d0e440b2817d900/mylist
@@ -116,6 +116,7 @@ Content-Type: application/json
     "profileId": "68f5dfabae8958455bf10991",
     "category": "movies",
     "item": {
+        "_id": "68895e42f3975a4ba7c0ea71",
         "title": "El sicario",
         "year": 2025,
         "director": "Frank Redolfo",

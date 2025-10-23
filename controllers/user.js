@@ -1,5 +1,5 @@
 import { validateMyList } from "../schemas/myList.js"
-import { validatePartialUser, validateProfile, validateUser } from "../schemas/users.js"
+import { validatePartialUser, validateUser } from "../schemas/users.js"
 
 export class UserController {
     constructor({ userModel }) {
@@ -50,17 +50,6 @@ export class UserController {
         }
     }
 
-    createProfile = async (req, res) => {
-        const { id } = req.params
-        const result = validateProfile(req.body)
-        try {
-            const newProfile = await this.userModel.createProfile({ id, profile: result.data })
-            return res.status(201).json(newProfile)
-        } catch (error) {
-            return res.status(400).json({ message: error.message })
-        }
-    }
-
     delete = async (req, res) => {
         const { id } = req.params
         const userIndex = await this.userModel.delete({ id })
@@ -68,16 +57,6 @@ export class UserController {
             return res.status(404).json({ message: 'User not found' })
         }
         return res.status(200).json({ message: 'User deleted' })
-    }
-
-    deleteProfile = async (req, res) => {
-        const { id, profileId } = req.params
-        try {
-            const deletedProfile = await this.userModel.deleteProfile({ id, profileId })
-            return res.status(200).json(deletedProfile)
-        } catch (error) {
-            return res.status(400).json({ message: error.message })
-        }
     }
 
     addToMyList = async (req, res) => {

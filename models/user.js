@@ -75,9 +75,9 @@ export class UserModel {
         const objectId = new ObjectId(id)
 
         const user = await users.findOne({ _id: objectId })
-        if(!user) throw new Error('User not found')
+        if (!user) throw new Error('User not found')
 
-        if(user.profiles && user.profiles.length >= 4){
+        if (user.profiles && user.profiles?.length >= 4) {
             throw new Error('Maximum number of profiles reached')
         }
 
@@ -107,22 +107,6 @@ export class UserModel {
         return result
     }
 
-    static deleteProfile = async ({ id, profileId }) => {
-        const db = await connect()
-        const users = db.collection('users')
-
-        const objectId = new ObjectId(id)
-        const profileObjectId = new ObjectId(profileId)
-
-        const result = await users.findOneAndUpdate(
-            { _id: objectId },
-            { $pull: { profiles: { _id: profileObjectId } } },
-            { returnDocument: 'after' }
-        )
-
-        return result
-    }
-
     static addToMyList = async ({ id, profileId, category, item }) => {
         const db = await connect()
         const users = db.collection('users')
@@ -131,17 +115,27 @@ export class UserModel {
         const profileObjectId = new ObjectId(profileId)
 
         const user = await users.findOne({ _id: objectId, "profiles._id": profileObjectId })
-        if(!user) throw new Error('User or profile not found')
+        if (!user) throw new Error('User or profile not found')
+
+        const profile = user.profiles.find(p => p._id.toString() === profileId)
+
+        if (!item._id) {
+            console.log("Item sin _id, asignando uno nuevo temporal para pruebas");
+            item._id = new ObjectId(); // esto te deja testear desde api.http
+            item.isTemporary = true;   // opcional, para identificarlo
+        }
+
+        const existsItem = profile.myList[category]?.some(existing => existing._id.toString() === item._id.toString())
+        if (existsItem) throw new Error(`${category.slice(0, -1)} already exists in myList`)
 
         const result = await users.updateOne(
             { _id: objectId, "profiles._id": profileObjectId },
             { $push: { [`profiles.$.myList.${category}`]: item } }
         )
 
-        if(result.modifiedCount === 0) throw new Error('Failed to add item')
-        
-        return { message: `Added ${category} item to myList`, item }
-        
+        if (result.modifiedCount === 0) throw new Error('Failed to add item')
+
+        return item 
     }
 
 }

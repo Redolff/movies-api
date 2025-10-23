@@ -12,6 +12,8 @@ import { userRouter } from './routes/user.js'
 import { UserModel } from './models/user.js'
 import { authRouter } from './routes/auth.js'
 import cookieParser from 'cookie-parser'
+import { profileRouter } from './routes/profile.js'
+import { ProfileModel } from './models/profile.js'
 
 const PORT = process.env.PORT
 const app = express()
@@ -25,6 +27,7 @@ app.use('/movies', movieRouter({ movieModel: MovieModel }))
 app.use('/series', serieRouter({ serieModel: SerieModel }))
 app.use('/games', gameRouter({ gameModel: GameModel }))
 app.use('/users', userRouter({ userModel: UserModel }))
+app.use('/profiles', profileRouter({ profileModel: ProfileModel }))
 app.use('/auth', authRouter())
 
 app.use((req, res) => {
