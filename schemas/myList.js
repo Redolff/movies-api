@@ -3,16 +3,16 @@ import { serieSchema } from './series.js'
 import { gameSchema } from './games.js'
 import z from 'zod'
 
-export const addToMyListSchema = z.object({
+export const myListSchema = z.object({
     profileId: z.string(),
     category: z.enum(["movies", "series", "games"]),
     item: z.union([movieSchema, serieSchema, gameSchema])
 })
 
 export const validateMyList = (object) => {
-    return addToMyListSchema.safeParse(object)
+    return myListSchema.safeParse(object)
 }
 
 export const validatePartialMyList = (object) => {
-    return addToMyListSchema.partial().safeParse(object)
+    return myListSchema.partial().safeParse(object)
 }
